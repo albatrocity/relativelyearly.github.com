@@ -1,0 +1,33 @@
+---
+extension: html
+filter:    haml
+---
+
+!!! strict
+
+%html
+  %head
+    %link{ :href => "/css/site.css", :rel => "stylesheet", :media => "screen, projection", :type => "text/css" }/
+  %body
+    #container
+      #header
+      #content
+        #pillar
+          %ul
+            %li
+              %a#home{:href => '#'}
+                Home
+            %li
+              %a#products{:href => '#'}
+                Products
+            %li
+              %a#portfolio{:href => '#'}
+                Portfolio
+            %li
+              %a#contact{:href => '#'}
+                Contact
+          %hr#pillarbottom                
+        .text
+          = @content
+        %br.clear      
+      #footer

@@ -1,0 +1,131 @@
+@font-face {
+font-family: "Delicious SmallCaps";
+src: url(/fonts/Delicious-SmallCaps.otf)
+}
+@font-face {
+font-family: "Delicious Roman";
+src: url(/fonts/Delicious-Roman.otf)
+}
+html {
+  margin: 0;
+}
+body {
+  font-size: 16px;
+  background: #202008 url(/images/grass.png) repeat-x 0 185px;
+  margin: 0;
+  padding: 0;
+}
+
+/* @group layout */
+
+/* @override http://localhost:4331/css/site.css */
+
+#container {
+  width: 876px;
+  margin: 0 auto;
+  background: #202008 url(/images/grass.png) repeat-x 0 185px;
+}
+#header {
+  background: url(/images/header.png) no-repeat -8px;
+  height: 198px;
+}
+#content {
+  width: 662px;
+  background: url(/images/content-bg.png) repeat-y 2px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  position: relative;
+}
+
+
+/* @end */
+
+/* Headings
+ * --------------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6 { color: <%= @page.color['header'] %>; }
+
+/* Text Elements
+ * --------------------------------------------------------------------- */
+a                 { color: #49251e; }
+p {
+  color: #49251e;
+  font-family: "Palatino";
+  font-size: 14px;
+}
+h1 {
+  color: #49251e;
+  font-family: "Delicious SmallCaps", Helvetica Neue, Arial;
+  font-size: 4em;
+  margin: 0;
+}
+
+#pillar {
+  width: 135px;
+  float: left;
+  margin: 0 0 0 20px;
+  background: url(../images/pillar-top.png) no-repeat 0 2px;
+  padding-top: 80px;
+}
+#pillar ul {
+  background-image: url(../images/pillar-mid.png);
+  padding: 20px 0;
+  margin: 0;
+  list-style: none;
+  text-indent: -999em;
+}
+li a#home {
+	display: block;
+  height: 91px;
+  background: url(../images/nav-home.png) no-repeat 1px 0;
+}
+
+li a#home:hover {
+  background-position: 1px -91px;
+}
+
+li a#products {
+  display: block;
+  height: 90px;
+  background: url(../images/nav-products.png) no-repeat 1px 0;}
+
+li a#products:hover {
+  background-position: 1px -88px;
+}  
+li a#portfolio {
+  display: block;
+  height: 90px;
+  background: url(../images/nav-portfolio.png) no-repeat 1px 0;}
+
+li a#portfolio:hover {
+  background-position: 1px -91px;
+}
+li a#contact {
+  display: block;
+  height: 90px;
+  background: url(../images/nav-contact.png) no-repeat 1px 0;}
+
+li a#contact:hover {
+  background-position: 1px -90px;
+}
+hr#pillarbottom {
+  border: none;
+  background-image: url(../images/pillar-bottom.png);
+  height: 45px;
+  margin: 0;
+}
+.text {
+  width: 505px;
+  float: right;
+}
+br.clear {
+  clear: both;
+}
+.text * {
+  padding-left: 80px;
+}
+
+.text h1 {
+  height: 1.6em;
+  margin-bottom: -.5em;
+  background: url(../images/diag-line.png) no-repeat -1px bottom;
+}
