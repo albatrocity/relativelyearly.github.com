@@ -1,7 +1,12 @@
 
-task :default => :build
+task :default => :copy
 
 desc 'deploy the site to the webserver'
 task :deploy => [:build, 'deploy:rsync']
+
+desc 'copy the output to _site'
+task :copy => [:build] do |t|
+  `cp -r output _site`
+end
 
 # EOF
