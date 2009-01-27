@@ -6,7 +6,7 @@ task :deploy => [:build, 'deploy:rsync']
 
 desc 'copy the output to _site'
 task :copy => [:build] do |t|
-  `cp -r output _site`
+  `cp -r output/* ..`
 end
 
 # EOF
