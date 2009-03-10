@@ -11,23 +11,13 @@ filter:    haml
   %body
     #container
       #header
+        %h1 
+          Relatively 
+          %br
+          Early
+          %br
+          Development
       #content
-        #pillar
-          %ul
-            %li
-              %a#home{:href => '#'}
-                Home
-            %li
-              %a#products{:href => '#'}
-                Products
-            %li
-              %a#portfolio{:href => '#'}
-                Portfolio
-            %li
-              %a#contact{:href => '#'}
-                Contact
-          %hr#pillarbottom                
-        .text
-          = @content
+        = @content
         %br.clear      
       #footer

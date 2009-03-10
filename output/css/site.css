@@ -11,9 +11,8 @@ html {
 }
 body {
   font-size: 16px;
-  background: #202008 url(/images/grass.png) repeat-x 0 185px;
+  background: #202008 url(/images/grass-sky.png) repeat-x 0 -55px;
   margin: 0;
-  padding: 0;
 }
 
 /* @group layout */
@@ -21,21 +20,47 @@ body {
 /* @override http://localhost:4331/css/site.css */
 
 #container {
-  width: 876px;
+  width: 884px;
   margin: 0 auto;
-  background: #202008 url(/images/grass.png) repeat-x 0 185px;
+
 }
 #header {
-  background: url(/images/header.png) no-repeat -8px;
-  height: 198px;
+	padding: 10px 0;
+	margin: 0 auto;
+	width: 700px;
+	min-height: 200px;
 }
 #content {
-  width: 662px;
-  background: url(/images/content-bg.png) repeat-y 2px;
+  width: 642px;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 10px 30px 10px 40px;
   position: relative;
 }
+
+a img {
+	border: none;
+}
+
+li a#home {
+	display: block;
+  height: 91px;
+  background: url(../images/nav-home.png) no-repeat 1px 0;
+}
+
+.text h2 {
+border-bottom: none;
+}
+#products {
+}
+#products div {
+  margin: 10px;
+  float: left;
+  width: 300px;
+}
+br.clear {
+  clear: both;
+}
+
 
 
 /* @end */
@@ -46,86 +71,39 @@ h1,h2,h3,h4,h5,h6 { color: <%= @page.color['header'] %>; }
 
 /* Text Elements
  * --------------------------------------------------------------------- */
-a                 { color: #49251e; }
+.text a                 { color: #938fbf;
+padding: .3em;
+background: #2e2c3c; text-decoration: none;
+  border-bottom: 2px solid #17171f;
+}
 p {
-  color: #49251e;
+  color: #9ba6be;
+  line-height: 1.5em;
   font-family: "Palatino";
   font-size: 14px;
 }
 h1 {
-  color: #49251e;
+  color: #aaa;
+  line-height: .8em;
   font-family: "Delicious SmallCaps", Helvetica Neue, Arial;
+  text-transform: uppercase;
+  text-align: center;
   font-size: 4em;
   margin: 0;
+  text-shadow: #000 0 0 100px;
 }
-
-#pillar {
-  width: 135px;
-  float: left;
-  margin: 0 0 0 20px;
-  background: url(../images/pillar-top.png) no-repeat 0 2px;
-  padding-top: 80px;
-}
-#pillar ul {
-  background-image: url(../images/pillar-mid.png);
-  padding: 20px 0;
+h2 {
+  color: #fff;
+  font-family: "Delicious SmallCaps", Helvetica Neue, Arial;
+  font-size: 2em;  
   margin: 0;
-  list-style: none;
-  text-indent: -999em;
+  border-bottom: 4px groove #262707;
 }
-li a#home {
-	display: block;
-  height: 91px;
-  background: url(../images/nav-home.png) no-repeat 1px 0;
+h2 a {
+  color: #00000a;
+  text-decoration: none;
+  text-shadow: #484912 0 1px 0;  
 }
-
-li a#home:hover {
-  background-position: 1px -91px;
-}
-
-li a#products {
-  display: block;
-  height: 90px;
-  background: url(../images/nav-products.png) no-repeat 1px 0;}
-
-li a#products:hover {
-  background-position: 1px -88px;
-}  
-li a#portfolio {
-  display: block;
-  height: 90px;
-  background: url(../images/nav-portfolio.png) no-repeat 1px 0;}
-
-li a#portfolio:hover {
-  background-position: 1px -91px;
-}
-li a#contact {
-  display: block;
-  height: 90px;
-  background: url(../images/nav-contact.png) no-repeat 1px 0;}
-
-li a#contact:hover {
-  background-position: 1px -90px;
-}
-hr#pillarbottom {
-  border: none;
-  background-image: url(../images/pillar-bottom.png);
-  height: 45px;
-  margin: 0;
-}
-.text {
-  width: 505px;
-  float: right;
-}
-br.clear {
-  clear: both;
-}
-.text * {
-  padding-left: 80px;
-}
-
-.text h1 {
-  height: 1.6em;
-  margin-bottom: -.5em;
-  background: url(../images/diag-line.png) no-repeat -1px bottom;
-}
+h2 a:hover {
+  color: #000;
+}	
