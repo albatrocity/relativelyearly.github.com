@@ -13,8 +13,9 @@ filter:
   %p We make web applications that we ourselves would use. We also work with clients to create custom web-based software, giving them a personalized web presence.
   %p 
     Please 
-    %a{:href => '#'} contact us
-     for more information on our services.
+    %a{:href => 'mailto:support@relativelyearly.com'} 
+      contact us
+    for more information on our services.
 
 #products
   #redlists
