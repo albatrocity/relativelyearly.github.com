@@ -1,0 +1,46 @@
+---
+title:       Home Page
+created_at:  2008-08-02 14:06:40.000000 -06:00
+filter:
+  - erb
+  - haml
+---
+.text
+  .p-item
+    %h2 
+      HEMI &rarr; 
+      %a{:href => 'http://hemizone.org'}
+        hemizone.org
+    %img{:src => '/images/portfolio/hemi.jpg', :alt => 'HEMI'}
+    %p This is a thing we did. It was made by us. It was made really well, by us. So awesome.
+    %ul
+      %li Ruby on Rails
+      %li I don't really know what we'll put here
+      %li Fairy Dust
+      %li HARD LIQUOR
+    %hr.clear
+  .p-item
+    %h2 
+      My Associate Cornelius &rarr; 
+      %a{:href => 'http://myassociatecornelius.com'}
+        myassociatecornelius.com
+    %img{:src => '/images/portfolio/myassociate.jpg', :alt => 'My Associate Cornelius'}
+    %p The website and professional portfolio of A. Micah Smith. The site was designed by Micah and constructed by Relatively Early, including an administrative back-end for easy additions of portfolio and news items.
+    %ul
+      %li Ruby on Rails
+      %li Fairy Dust
+      %li HARD LIQUOR
+    %hr.clear    
+
+  .p-item
+    %h2 
+      ABCreative &rarr; 
+      %a{:href => 'http://abcreative.net'}
+        abcreative.net
+    %img{:src => '/images/portfolio/abcreative.jpg', :alt => 'ABCreative'}
+    %p Haha
+    %ul
+      %li Luck
+      %li Patience
+      %li Guns
+    %hr.clear        
