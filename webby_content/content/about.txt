@@ -1,0 +1,30 @@
+---
+title:       Home Page
+created_at:  2008-08-02 14:06:40.000000 -06:00
+filter:
+  - erb
+  - haml
+---
+.text
+  %p We are a small web development team based in Kansas City. We don't even have day jobs. Just kidding.
+
+  .item.emp
+    %h2 Matt Pruitt
+    %p Matt is a complete turd. Really, he's just a big smelly log of poo. Just kidding, Matt is great. He likes doing stuff with computers. Last time I checked, he also pirates a lot of movies and stuff.
+    %ul
+      %li
+        %a{:href => 'http://guitsaru.com'}
+          Personal Website    
+      %li    
+        %a{:href => 'http://redlists.com'}
+          Twitter
+  .item.emp
+    %h2 Ross brown
+    %p Ross is awesome.
+    %ul
+      %li
+        %a{:href => 'http://rossisbrown.com'}
+          Personal Website    
+      %li    
+        %a{:href => 'http://redlists.com'}
+          Twitter   

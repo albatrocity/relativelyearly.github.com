@@ -17,6 +17,16 @@ filter:    haml
           Early
           %br
           Development
+        %ul#nav
+          %li 
+            %a{:href => '#'} 
+              Contact
+          %li 
+            %a{:href => '/portfolio.html'} 
+              Portfolio
+          %li 
+            %a{:href => '/about.html'} 
+              About              
       #content
         = @content
         %br.clear      
