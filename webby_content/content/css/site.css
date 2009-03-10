@@ -12,6 +12,7 @@ html {
 ul#nav {
   margin: 0;
   padding: 10px 20px;
+  font-family: "Delicious SmallCaps", Helvetica Neue, Arial;  
 }
 #nav li {
   display: inline;
@@ -28,31 +29,41 @@ ul#nav {
 }
 
 /* @group portfolio */
-.p-item p {
+.item p {
+	color: #585816;
   width: 400px;
   float: left;
 }
-.p-item ul {
-  color: #9ba6be;
+.item ul {
+	font-size: .9em;
+	color: #585816;
 	width: 190px;
   float: right;
   margin: 1em 0;
   border-left: 2px solid #1d1e07;
 }
 
-div.p-item {
+div.item {
   margin-bottom: 20px;
 }
-.p-item h2 a {
+.item h2 a {
   background: transparent;
   text-shadow: none;
 }
-.p-item img {
+.item img {
   border: 2px solid #161616;
 }
 
-#content div.text div.p-item ul li {
+#content div.text div.item ul li {
   margin: .3em 0;
+}
+
+#content div.text div.item.emp ul li {
+  margin: .6em 0;
+  list-style: none;
+}
+#content div.text div.item.emp ul li a{
+  display: block;
 }
 /* @end */
 body {
@@ -99,6 +110,7 @@ li a#home {
 
 .text h2 {
 border-bottom: none;
+margin-bottom: .3em;
 }
 #products {
 }
@@ -123,9 +135,12 @@ h1,h2,h3,h4,h5,h6 { color: <%= @page.color['header'] %>; }
 /* Text Elements
  * --------------------------------------------------------------------- */
 .text a                 { color: #938fbf;
-padding: .3em;
+padding: .5em;
 background: #2e2c3c; text-decoration: none;
   border-bottom: 2px solid #17171f;
+}
+.text a:hover {
+  background-color: #242330;
 }
 p {
   color: #9ba6be;

@@ -6,7 +6,7 @@ filter:
   - haml
 ---
 .text
-  .p-item
+  .item
     %h2 
       HEMI &rarr; 
       %a{:href => 'http://hemizone.org'}
@@ -19,7 +19,7 @@ filter:
       %li Fairy Dust
       %li HARD LIQUOR
     %hr.clear
-  .p-item
+  .item
     %h2 
       My Associate Cornelius &rarr; 
       %a{:href => 'http://myassociatecornelius.com'}
@@ -32,7 +32,7 @@ filter:
       %li HARD LIQUOR
     %hr.clear    
 
-  .p-item
+  .item
     %h2 
       ABCreative &rarr; 
       %a{:href => 'http://abcreative.net'}
@@ -42,5 +42,5 @@ filter:
     %ul
       %li Luck
       %li Patience
-      %li Guns
+      %li Gunsitem
     %hr.clear        
