@@ -6,12 +6,13 @@ filter:
   - haml
 ---
 .text
-  .item
+  .item#hemi
     %h2 
       HEMI &rarr; 
       %a{:href => 'http://hemizone.org'}
         hemizone.org
-    %img{:src => '/images/portfolio/hemi.jpg', :alt => 'HEMI'}
+    %img.target{:src => '/images/portfolio/hemi.jpg', :alt => 'HEMI'}
+    
     %p This is a thing we did. It was made by us. It was made really well, by us. So awesome.
     %ul
       %li Ruby on Rails
@@ -19,13 +20,20 @@ filter:
       %li Fairy Dust
       %li HARD LIQUOR
     %hr.clear
-  .item
+  .item#myassociate
     %h2 
       My Associate Cornelius &rarr; 
       %a{:href => 'http://myassociatecornelius.com'}
         myassociatecornelius.com
-    %img{:src => '/images/portfolio/myassociate.jpg', :alt => 'My Associate Cornelius'}
-    %p The website and professional portfolio of A. Micah Smith. The site was designed by Micah and constructed by Relatively Early, including an administrative back-end for easy additions of portfolio and news items.
+    %img.target.captify{:src => '/images/portfolio/myassociate.jpg', :alt => 'My Associate Cornelius'}
+    .thumbs
+      %a{:href => '/images/portfolio/myassociate-buy.jpg'}
+        %img{:src => '/images/portfolio/thumbs/myassociate-buy.jpg', :alt => 'My Associate Cornelius portfolio item with a buy option'}
+      %a{:href => '/images/portfolio/myassociate-news.jpg'}
+        %img{:src => '/images/portfolio/thumbs/myassociate-news.jpg', :alt => 'My Associate Cornelius news page'}
+      %a{:href => '/images/portfolio/myassociate.jpg'}
+        %img{:src => '/images/portfolio/thumbs/myassociate.jpg', :alt => 'My Associate Cornelius portfolio page'}        
+    %p The website and professional portfolio of A. Micah Smith. The site was designed by Micah and constructed by Relatively Early, including an administrative back-end for easy additions of portfolio and news items. In addition, we developed a private client section for easy project proofing.
     %ul
       %li Ruby on Rails
       %li Fairy Dust
@@ -38,9 +46,47 @@ filter:
       %a{:href => 'http://abcreative.net'}
         abcreative.net
     %img{:src => '/images/portfolio/abcreative.jpg', :alt => 'ABCreative'}
-    %p Haha
+    %p The existing design for ABCreative was left intact while we added an administrative back end, giving the client the ability to add and edit products, references, and sales/specials. We also developed a simple shopping cart for their "Buy Parts" page that integrated with their current PayPal system.
     %ul
       %li Luck
       %li Patience
       %li Gunsitem
-    %hr.clear        
+    %hr.clear    
+
+:javascript   
+  $(document).ready(function(){
+    $('img.captify').captify({
+    // all of these options are... optional
+    // ---
+    // speed of the mouseover effect
+    speedOver: 'fast',
+    // speed of the mouseout effect
+    speedOut: 'normal',
+    // how long to delay the hiding of the caption after mouseout (ms)
+    hideDelay: 500,	
+    // 'fade', 'slide', 'always-on'
+    animation: 'slide',		
+    // text/html to be placed at the beginning of every caption
+    prefix: '',		
+    // opacity of the caption on mouse over
+    opacity: '0.7',					
+    // the name of the CSS class to apply to the caption box
+    className: 'caption-bottom',	
+    // position of the caption (top or bottom)
+    position: 'bottom',
+    // caption span % of the image
+    spanWidth: '100%'
+    });
+    });
+  $("#hemi .thumbs a").click( function() {
+    var changeSrc = $(this).attr("href");
+    var changeAlt = $(this).attr("alt");
+    $("#hemi .target").attr("src", changeSrc);
+    $("#hemi .target").attr("alt", changeAlt);
+    return false;
+  });    
+  $("#myassociate .thumbs a").click( function() {
+    var changeSrc = $(this).attr("href");
+    $("#myassociate .target").attr("src", changeSrc);
+    return false;
+  });      
