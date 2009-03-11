@@ -52,10 +52,22 @@ div.item {
   padding: 0;
   border-bottom: none;
 }
+
 .item h2 a:hover {background: transparent;}
 .item img {
   border: 2px solid #161616;
 }
+div.text div.thumbs a, div.text div.thumbs a:hover {
+  background: transparent;
+  border: none;
+  margin: 0 3px 0 0;
+  padding: 0;
+}
+div.thumbs a img {
+  margin: 0;
+  padding: 0;
+}
+
 
 #content div.text div.item ul li {
   margin: .3em 0;
@@ -175,4 +187,37 @@ h2 a {
 }
 h2 a:hover {
   color: #000;
-}	
+}
+
+/* @group captions */
+
+.caption-top, .caption-bottom {
+	color: #ffffff;	
+	padding: 1.2em;	
+	font-weight: bold;
+	font-size: 13px;	
+	font-family: arial;	
+	cursor: default;
+	border: 0px solid #334143;
+	background: #000000;
+}
+.caption-top {
+   border-width: 0px 0px 8px 0px;
+}
+.caption-bottom {
+   border-width: 8px 0px 0px 0px;
+}
+.caption a, .caption a {
+	border: 0 none;
+	text-decoration: none;
+	background: #000000;
+	padding: 0.3em;
+}
+.caption a:hover, .caption a:hover {
+	background: #202020;
+}
+.caption-wrapper {
+	float: left;
+}
+br.c { clear: both; }
+/* @end */	
