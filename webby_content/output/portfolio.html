@@ -47,6 +47,17 @@
             </h2>
             <img alt='HEMI' class='target' src='/images/portfolio/hemi.jpg' />
             <div id='hemi-caption'></div>
+            <div class='thumbs'>
+              <a href='/images/portfolio/myassociate-buy.jpg' title='Portfolio item with a buy option'>
+                <img alt='Portfolio item with a buy option' src='/images/portfolio/thumbs/myassociate-buy.jpg' />
+              </a>
+              <a href='/images/portfolio/myassociate-news.jpg' title='The front page news'>
+                <img alt='The front page news' src='/images/portfolio/thumbs/myassociate-news.jpg' />
+              </a>
+              <a href='/images/portfolio/myassociate.jpg' title='The portfolio page'>
+                <img alt='My Associate Cornelius portfolio page' src='/images/portfolio/thumbs/myassociate.jpg' />
+              </a>
+            </div>
             <p>This is a thing we did. It was made by us. It was made really well, by us. So awesome.</p>
             <ul>
               <li>Ruby on Rails</li>
@@ -63,17 +74,16 @@
                 myassociatecornelius.com
               </a>
             </h2>
-            <img alt='My Associate Cornelius' class='target captify' src='/images/portfolio/myassociate.jpg' />
-            <hr class='clear' />
+            <img alt='My Associate Cornelius' class='target' src='/images/portfolio/myassociate.jpg' />
             <div id='myassociate-caption'>
               The portfolio page
             </div>
             <div class='thumbs'>
               <a href='/images/portfolio/myassociate-buy.jpg' title='Portfolio item with a buy option'>
-                <img alt='My Associate Cornelius portfolio item with a buy option' src='/images/portfolio/thumbs/myassociate-buy.jpg' />
+                <img alt='Portfolio item with a buy option' src='/images/portfolio/thumbs/myassociate-buy.jpg' />
               </a>
               <a href='/images/portfolio/myassociate-news.jpg' title='The front page news'>
-                <img alt='My Associate Cornelius news page' src='/images/portfolio/thumbs/myassociate-news.jpg' />
+                <img alt='The front page news' src='/images/portfolio/thumbs/myassociate-news.jpg' />
               </a>
               <a href='/images/portfolio/myassociate.jpg' title='The portfolio page'>
                 <img alt='My Associate Cornelius portfolio page' src='/images/portfolio/thumbs/myassociate.jpg' />
@@ -87,14 +97,28 @@
             </ul>
             <hr class='clear' />
           </div>
-          <div class='item'>
+          <div class='item' id='abcreative'>
             <h2>
               ABCreative &rarr;
               <a href='http://abcreative.net'>
                 abcreative.net
               </a>
             </h2>
-            <img alt='ABCreative' src='/images/portfolio/abcreative.jpg' />
+            <img alt='ABCreative' class='target' src='/images/portfolio/abcreative.jpg' />
+            <div id='abc-caption'>
+              caption here
+            </div>
+            <div class='thumbs'>
+              <a href='/images/portfolio/myassociate-buy.jpg' title='Portfolio item with a buy option'>
+                <img alt='Portfolio item with a buy option' src='/images/portfolio/thumbs/myassociate-buy.jpg' />
+              </a>
+              <a href='/images/portfolio/myassociate-news.jpg' title='The front page news'>
+                <img alt='The front page news' src='/images/portfolio/thumbs/myassociate-news.jpg' />
+              </a>
+              <a href='/images/portfolio/myassociate.jpg' title='The portfolio page'>
+                <img alt='My Associate Cornelius portfolio page' src='/images/portfolio/thumbs/myassociate.jpg' />
+              </a>
+            </div>
             <p>The existing design for ABCreative was left intact while we added an administrative back end, giving the client the ability to add and edit products, references, and sales/specials. We also developed a simple shopping cart for their "Buy Parts" page that integrated with their current PayPal system.</p>
             <ul>
               <li>Luck</li>
@@ -108,9 +132,13 @@
           //<![CDATA[
             $("#hemi .thumbs a").click( function() {
               var changeSrc = $(this).attr("href");
-              var changeAlt = $(this).attr("alt");
-              $("#hemi img.target").attr("src", changeSrc);
-              $("#hemi img.target").attr("alt", changeAlt);
+              var changeAlt = $(this).attr("title");    
+              var title = $(this).attr("title");    
+              $("#hemi .target").attr({ 
+                src: changeSrc,
+                alt: changeAlt
+              });
+              $("#hemi-caption").text(title);
               return false;
             });    
             $("#myassociate .thumbs a").click( function() {
@@ -122,6 +150,17 @@
                 alt: changeAlt
               });
               $("#myassociate-caption").text(title);
+              return false;
+            });      
+            $("#abcreative .thumbs a").click( function() {
+              var changeSrc = $(this).attr("href");
+              var changeAlt = $(this).attr("title");    
+              var title = $(this).attr("title");    
+              $("#abcreative .target").attr({ 
+                src: changeSrc,
+                alt: changeAlt
+              });
+              $("#abc-caption").text(title);
               return false;
             });
           //]]>
