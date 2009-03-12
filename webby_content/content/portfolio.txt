@@ -13,14 +13,15 @@ filter:
         hemizone.org
     %img.target{:src => '/images/portfolio/hemi.jpg', :alt => 'HEMI'}
     #hemi-caption
-    
+      Videos page
     .thumbs
-      %a{:href => '/images/portfolio/myassociate-buy.jpg', :title => 'Portfolio item with a buy option'}
-        %img{:src => '/images/portfolio/thumbs/myassociate-buy.jpg', :alt => 'Portfolio item with a buy option'}
-      %a{:href => '/images/portfolio/myassociate-news.jpg', :title => 'The front page news'}
-        %img{:src => '/images/portfolio/thumbs/myassociate-news.jpg', :alt => 'The front page news'}
-      %a{:href => '/images/portfolio/myassociate.jpg', :title => 'The portfolio page'}
-        %img{:src => '/images/portfolio/thumbs/myassociate.jpg', :alt => 'My Associate Cornelius portfolio page'}     
+      %a{:href => '/images/portfolio/hemi-alliance.jpg', :title => 'Mission Alliance information and dynamic content, pulled from other portions of the site'}
+        %img{:src => '/images/portfolio/thumbs/hemi-alliance.jpg', :alt => 'Mission Alliance information and dynamic content, pulled from other portions of the site'}
+      %a{:href => '/images/portfolio/hemi-admin.jpg', :title => 'Admin control panel'}
+        %img{:src => '/images/portfolio/thumbs/hemi-admin.jpg', :alt => 'Admin control panel'}    
+      %a{:href => '/images/portfolio/hemi.jpg', :title => 'Videos page'}
+        %img{:src => '/images/portfolio/thumbs/hemi.jpg', :alt => 'Videos page'}             
+        
     %p This is a thing we did. It was made by us. It was made really well, by us. So awesome.
     %ul
       %li Ruby on Rails
@@ -57,14 +58,14 @@ filter:
         abcreative.net
     %img.target{:src => '/images/portfolio/abcreative.jpg', :alt => 'ABCreative'}
     #abc-caption
-      caption here
+      References
     .thumbs    
-      %a{:href => '/images/portfolio/myassociate-buy.jpg', :title => 'Portfolio item with a buy option'}
-        %img{:src => '/images/portfolio/thumbs/myassociate-buy.jpg', :alt => 'Portfolio item with a buy option'}
-      %a{:href => '/images/portfolio/myassociate-news.jpg', :title => 'The front page news'}
-        %img{:src => '/images/portfolio/thumbs/myassociate-news.jpg', :alt => 'The front page news'}
-      %a{:href => '/images/portfolio/myassociate.jpg', :title => 'The portfolio page'}
-        %img{:src => '/images/portfolio/thumbs/myassociate.jpg', :alt => 'My Associate Cornelius portfolio page'}     
+      %a{:href => '/images/portfolio/abcreative-shop.jpg', :title => 'Buy Parts page with shopping cart'}
+        %img{:src => '/images/portfolio/thumbs/abcreative-shop.jpg', :alt => 'Buy Parts page with shopping cart'}
+      %a{:href => '/images/portfolio/abcreative-admin.jpg', :title => 'Products admin section'}
+        %img{:src => '/images/portfolio/thumbs/abcreative-admin.jpg', :alt => 'Products admin section'}
+      %a{:href => '/images/portfolio/abcreative.jpg', :title => 'References'}
+        %img{:src => '/images/portfolio/thumbs/abcreative.jpg', :alt => 'References'}     
     %p The existing design for ABCreative was left intact while we added an administrative back end, giving the client the ability to add and edit products, references, and sales/specials. We also developed a simple shopping cart for their "Buy Parts" page that integrated with their current PayPal system.
     %ul
       %li Luck
