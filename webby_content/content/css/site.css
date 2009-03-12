@@ -1,3 +1,5 @@
+/* @override http://localhost:4331/css/site.css */
+
 @font-face {
 font-family: "Delicious SmallCaps";
 src: url(/fonts/Delicious-SmallCaps.otf)
@@ -41,6 +43,7 @@ ul#nav {
   float: right;
   margin: 1em 0;
   border-left: 2px solid #1d1e07;
+  font-family: "Palatino";  
 }
 
 div.item {
@@ -56,12 +59,21 @@ div.item {
 .item h2 a:hover {background: transparent;}
 .item img {
   border: 2px solid #161616;
+
 }
-div.text div.thumbs a, div.text div.thumbs a:hover {
+
+img.target {
+  -webkit-box-shadow:#000 0 0 18px;    
+}
+#content div.text div.thumbs a, #content div.text div.thumbs a:hover {
   background: transparent;
   border: none;
-  margin: 0 3px 0 0;
+  margin: 0 2px 0 0;
   padding: 0;
+  width: auto;
+}
+div.thumbs {
+  margin-top: 10px;
 }
 div.thumbs a img {
   margin: 0;
@@ -72,7 +84,18 @@ div.thumbs a img {
 #content div.text div.item ul li {
   margin: .3em 0;
 }
-
+#myassociate-caption, #hemi-caption, #abc-caption {
+width: 618px;
+margin:8px 0 0 2px;
+  font-size: 1em;
+  position: relative;
+  padding: 10px;
+  background: #585612;
+  font-family: "Delicious SmallCaps", Helvetica Neue, Arial;  
+color: #938fbf;
+background: #2e2c3c;
+  text-shadow: #000000 0 0 3px;
+}
 #content div.text div.item.emp ul li {
   margin: .6em 0;
   list-style: none;
@@ -89,7 +112,7 @@ body {
 
 /* @group layout */
 
-/* @override http://localhost:4331/css/site.css */
+
 
 #container {
   width: 884px;
@@ -160,7 +183,7 @@ background: #2e2c3c; text-decoration: none;
 p {
   color: #9ba6be;
   line-height: 1.5em;
-  font-family: "Palatino";
+  font-family: "Palatino", "Georgia", serif;
   font-size: 14px;
 }
 h1 {
@@ -186,7 +209,7 @@ h2 a {
   text-shadow: #484912 0 1px 0;  
 }
 h2 a:hover {
-  color: #000;
+  color: #a7a6df;
 }
 
 /* @group captions */
