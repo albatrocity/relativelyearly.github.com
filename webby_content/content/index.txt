@@ -10,7 +10,7 @@ filter:
   %p We are a small web development team based in Kansas City. We don't even have day jobs. Just kidding.
 
   %h2 What We Do
-  %p We make web applications that we ourselves would use. We also work with clients to create custom web-based software, giving them a personalized web presence.
+  %p We make web applications that we ourselves would use. We also work with clients to create custom web-based software, giving them a personalized presence on the internet.
   %p 
     Please 
     %a{:href => 'mailto:support@relativelyearly.com'} 
