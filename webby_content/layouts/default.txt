@@ -30,7 +30,7 @@ filter:    haml
               About              
       #content
         = @content
-          .clear      
+        .clear
       #footer
         %small &copy; 2009 Relatively Early Development
         %small 
