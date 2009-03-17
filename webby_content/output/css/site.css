@@ -290,5 +290,5 @@ h2 a:hover {
 .caption-wrapper {
 	float: left;
 }
-br.c { clear: both; }
+br.c { clear: both; margin: 0; padding: 0; line-height: 1%;}
 /* @end */	

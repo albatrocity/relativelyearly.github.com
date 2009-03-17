@@ -30,7 +30,7 @@ filter:    haml
               Contact
       #content
         = @content
-      %hr.clear
+      %br.c
       #footer
         %small &copy; 2009 Relatively Early Development
         %small 
