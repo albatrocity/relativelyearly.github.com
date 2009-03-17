@@ -54,8 +54,7 @@ div.item {
   width: 100%;
 }
 .work {
-  min-width: 642px;
-  max-width: 642px;
+  max-width: 638px;
 }
 .item h2 a {
   background: transparent;
@@ -71,12 +70,14 @@ div.item {
 }
 
 img.target {
-  -webkit-box-shadow:#000 0 0 18px;    
+  -webkit-box-shadow:#000 0 0 18px;   
+  width: 100%;   
+  max-width: 638px;
 }
 #content div.text div.thumbs a, #content div.text div.thumbs a:hover {
   background: transparent;
   border: none;
-  margin: 0 2px 0 0;
+  margin: 0 .8% 0 0;
   padding: 0;
   width: auto;
 }
@@ -86,6 +87,8 @@ div.thumbs {
 div.thumbs a img {
   margin: 0;
   padding: 0;
+  width: 31%;
+  border: 3px solid #111;
 }
 
 
@@ -93,7 +96,7 @@ div.thumbs a img {
   margin: .3em 0;
 }
 #myassociate-caption, #hemi-caption, #abc-caption {
-width: 618px;
+
 margin:8px 0 0 2px;
   font-size: 1em;
   position: relative;
