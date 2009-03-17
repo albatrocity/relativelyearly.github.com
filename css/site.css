@@ -1,3 +1,5 @@
+/* @override http://localhost:4331/css/site.css */
+
 @font-face {
 font-family: "Delicious SmallCaps";
 src: url(/fonts/Delicious-SmallCaps.otf)
@@ -9,6 +11,99 @@ src: url(/fonts/Delicious-Roman.otf)
 html {
   margin: 0;
 }
+ul#nav {
+  margin: 0;
+  padding: 10px 20px;
+  font-family: "Delicious SmallCaps", Helvetica Neue, Arial;  
+}
+#nav li {
+  display: inline;
+  font-size: 1.3em;
+  padding: 10px;
+  width: 200px;
+}
+#nav li a {
+  color: #222;
+  text-decoration: none;
+}
+#nav li a:hover {
+  border-bottom: 2px solid #222;
+}
+
+/* @group portfolio */
+.item p {
+	color: #585816;
+  width: 400px;
+  float: left;
+}
+.item ul {
+	font-size: .9em;
+	color: #585816;
+	width: 190px;
+  float: right;
+  margin: 1em 0;
+  border-left: 2px solid #1d1e07;
+  font-family: "Palatino";  
+}
+
+div.item {
+  margin-bottom: 20px;
+}
+.item h2 a {
+  background: transparent;
+  text-shadow: none;
+  padding: 0;
+  border-bottom: none;
+}
+
+.item h2 a:hover {background: transparent;}
+.item img {
+  border: 2px solid #161616;
+
+}
+
+img.target {
+  -webkit-box-shadow:#000 0 0 18px;    
+}
+#content div.text div.thumbs a, #content div.text div.thumbs a:hover {
+  background: transparent;
+  border: none;
+  margin: 0 2px 0 0;
+  padding: 0;
+  width: auto;
+}
+div.thumbs {
+  margin-top: 10px;
+}
+div.thumbs a img {
+  margin: 0;
+  padding: 0;
+}
+
+
+#content div.text div.item ul li {
+  margin: .3em 0;
+}
+#myassociate-caption, #hemi-caption, #abc-caption {
+width: 618px;
+margin:8px 0 0 2px;
+  font-size: 1em;
+  position: relative;
+  padding: 10px;
+  background: #585612;
+  font-family: "Delicious SmallCaps", Helvetica Neue, Arial;  
+color: #938fbf;
+background: #2e2c3c;
+  text-shadow: #000000 0 0 3px;
+}
+#content div.text div.item.emp ul li {
+  margin: .6em 0;
+  list-style: none;
+}
+#content div.text div.item.emp ul li a{
+  display: block;
+}
+/* @end */
 body {
   font-size: 16px;
   background: #202008 url(/images/grass-sky.png) repeat-x 0 -55px;
@@ -17,7 +112,7 @@ body {
 
 /* @group layout */
 
-/* @override http://localhost:4331/css/site.css */
+
 
 #container {
   width: 884px;
@@ -33,8 +128,12 @@ body {
 #content {
   width: 642px;
   margin: 0 auto;
-  padding: 10px 30px 10px 40px;
+  padding: 10px 30px;
   position: relative;
+}
+
+div.p-item h2 {
+
 }
 
 a img {
@@ -49,6 +148,7 @@ li a#home {
 
 .text h2 {
 border-bottom: none;
+margin-bottom: .3em;
 }
 #products {
 }
@@ -57,8 +157,9 @@ border-bottom: none;
   float: left;
   width: 300px;
 }
-br.clear {
+hr.clear {
   clear: both;
+  border: 1px solid #1d1e07;
 }
 
 
@@ -72,14 +173,17 @@ h1,h2,h3,h4,h5,h6 { color: <%= @page.color['header'] %>; }
 /* Text Elements
  * --------------------------------------------------------------------- */
 .text a                 { color: #938fbf;
-padding: .3em;
+padding: .5em;
 background: #2e2c3c; text-decoration: none;
   border-bottom: 2px solid #17171f;
+}
+.text a:hover {
+  background-color: #242330;
 }
 p {
   color: #9ba6be;
   line-height: 1.5em;
-  font-family: "Palatino";
+  font-family: "Palatino", "Georgia", serif;
   font-size: 14px;
 }
 h1 {
@@ -88,7 +192,7 @@ h1 {
   font-family: "Delicious SmallCaps", Helvetica Neue, Arial;
   text-transform: uppercase;
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
   margin: 0;
   text-shadow: #000 0 0 100px;
 }
@@ -105,5 +209,38 @@ h2 a {
   text-shadow: #484912 0 1px 0;  
 }
 h2 a:hover {
-  color: #000;
-}	
+  color: #a7a6df;
+}
+
+/* @group captions */
+
+.caption-top, .caption-bottom {
+	color: #ffffff;	
+	padding: 1.2em;	
+	font-weight: bold;
+	font-size: 13px;	
+	font-family: arial;	
+	cursor: default;
+	border: 0px solid #334143;
+	background: #000000;
+}
+.caption-top {
+   border-width: 0px 0px 8px 0px;
+}
+.caption-bottom {
+   border-width: 8px 0px 0px 0px;
+}
+.caption a, .caption a {
+	border: 0 none;
+	text-decoration: none;
+	background: #000000;
+	padding: 0.3em;
+}
+.caption a:hover, .caption a:hover {
+	background: #202020;
+}
+.caption-wrapper {
+	float: left;
+}
+br.c { clear: both; }
+/* @end */	
