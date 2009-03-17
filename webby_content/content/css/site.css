@@ -50,8 +50,8 @@ ul#nav {
 }
 
 div.item {
-  margin-bottom: 20px;
   width: 100%;
+  margin: 0 auto 20px auto;
 }
 .work {
   max-width: 638px;
