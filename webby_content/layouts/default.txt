@@ -20,17 +20,17 @@ filter:    haml
             Relatively Early Development
         %ul#nav
           %li 
-            %a{:href => '/contact.html'} 
-              Contact
-          %li 
-            %a{:href => '/portfolio.html'} 
+            %a{:href => '/portfolio.html'}
               Portfolio
           %li 
-            %a{:href => '/about.html'} 
-              About              
+            %a{:href => '/about.html'}
+              About
+          %li 
+            %a{:href => '/contact.html'} 
+              Contact
       #content
         = @content
-        .clear
+      %hr.clear
       #footer
         %small &copy; 2009 Relatively Early Development
         %small 

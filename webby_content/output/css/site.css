@@ -92,9 +92,6 @@ div.thumbs a img {
 }
 
 
-#content div.text div.item ul li {
-  margin: .3em 0;
-}
 #myassociate-caption, #hemi-caption, #abc-caption {
 
 margin:8px 0 0 2px;
@@ -108,7 +105,7 @@ background: #2e2c3c;
   text-shadow: #000000 0 0 3px;
 }
 #content div.text div.item.emp ul li {
-  margin: .6em 0;
+  margin: 0 0 .6em 0;
   list-style: none;
 }
 #content div.text div.item.emp ul li a{
@@ -209,6 +206,20 @@ h1 {
   padding: 0 30px;
   text-shadow: #000 0 0 100px;
 }
+
+.emp img.grav {
+  float: left;
+  margin: 0 1em 0 0;
+  width: 30%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.emp h2 small {
+  font-size: 60%;
+  color: #938fb7;
+}
+
 h1 a {
   color: #aaa;
   text-decoration: none;  
@@ -239,6 +250,7 @@ h2 a:hover {
   color: #585813;
   text-align: center;
   font-size: 90%;
+  margin-top: 10px;
 }
 #footer a {
   color: #999;
