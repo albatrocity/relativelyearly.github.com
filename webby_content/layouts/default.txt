@@ -30,5 +30,18 @@ filter:    haml
               About              
       #content
         = @content
-        %br.clear      
+          .clear      
       #footer
+        %small &copy; 2009 Relatively Early Development
+        %small 
+          with some love from 
+          %a{:href => 'http://webby.rubyforge.org/'}
+            Webby
+          ,            
+          %a{:href => 'http://jquery.com/'}
+            jQuery  
+          ,            
+          and the
+          %a{:href => 'http://www.josbuivenga.demon.nl/delicious.html'}
+            Delicious font family
+        

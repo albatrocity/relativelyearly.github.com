@@ -25,9 +25,7 @@ filter:
     %p This is a thing we did. It was made by us. It was made really well, by us. So awesome.
     %ul
       %li Ruby on Rails
-      %li I don't really know what we'll put here
-      %li Fairy Dust
-      %li HARD LIQUOR
+      %li jQuery
     %hr.clear
   .item.work#myassociate
     %h2 
@@ -47,8 +45,7 @@ filter:
     %p The website and professional portfolio of A. Micah Smith. The site was designed by Micah and constructed by Relatively Early, including an administrative back-end for easy additions of portfolio and news items. In addition, we developed a private client section for easy project proofing.
     %ul
       %li Ruby on Rails
-      %li Fairy Dust
-      %li HARD LIQUOR
+      %li Prototype
     %hr.clear    
 
   .item.work#abcreative

@@ -116,7 +116,7 @@ background: #2e2c3c;
 }
 /* @end */
 body {
-  font-size: 16px;
+  font-size:100%;
   background: #202008 url(/images/grass-sky.png) repeat-x 0 -55px;
   margin: 0;
 }
@@ -227,6 +227,25 @@ h2 a {
 }
 h2 a:hover {
   color: #a7a6df;
+}
+
+#footer {
+  border-top: 1px dashed #292a0a;
+  border-right: 1px dashed #292a0a;
+  border-left: 1px dashed #292a0a;  
+  background: #161605;
+  padding: 20px;
+  font-family: "Palatino", "Georgia", serif;
+  color: #585813;
+  text-align: center;
+  font-size: 90%;
+}
+#footer a {
+  color: #999;
+  text-decoration: none;
+}
+#footer a:hover {
+  text-decoration: underline;
 }
 
 /* @group captions */
