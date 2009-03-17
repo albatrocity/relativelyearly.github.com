@@ -15,15 +15,12 @@ filter:    haml
   %body
     #container
       #header
-        %h1 
-          Relatively 
-          %br
-          Early
-          %br
-          Development
+        %h1
+          %a{:href => '/'}
+            Relatively Early Development
         %ul#nav
           %li 
-            %a{:href => '#'} 
+            %a{:href => '/contact.html'} 
               Contact
           %li 
             %a{:href => '/portfolio.html'} 

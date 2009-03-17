@@ -6,7 +6,7 @@ filter:
   - haml
 ---
 .text
-  .item#hemi
+  .item.work#hemi
     %h2 
       HEMI &rarr; 
       %a{:href => 'http://hemizone.org'}
@@ -29,7 +29,7 @@ filter:
       %li Fairy Dust
       %li HARD LIQUOR
     %hr.clear
-  .item#myassociate
+  .item.work#myassociate
     %h2 
       My Associate Cornelius &rarr; 
       %a{:href => 'http://myassociatecornelius.com'}
@@ -51,7 +51,7 @@ filter:
       %li HARD LIQUOR
     %hr.clear    
 
-  .item#abcreative
+  .item.work#abcreative
     %h2 
       ABCreative &rarr; 
       %a{:href => 'http://abcreative.net'}
