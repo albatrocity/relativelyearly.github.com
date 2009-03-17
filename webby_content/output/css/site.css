@@ -15,6 +15,8 @@ ul#nav {
   margin: 0;
   padding: 10px 20px;
   font-family: "Delicious SmallCaps", Helvetica Neue, Arial;  
+  position: absolute;
+  top: 130px;
 }
 #nav li {
   display: inline;
@@ -33,13 +35,14 @@ ul#nav {
 /* @group portfolio */
 .item p {
 	color: #585816;
-  width: 400px;
+  width: 58%;
   float: left;
 }
 .item ul {
 	font-size: .9em;
+  padding: 0 0 0 1.5em;	
 	color: #585816;
-	width: 190px;
+	width: 35%;
   float: right;
   margin: 1em 0;
   border-left: 2px solid #1d1e07;
@@ -47,7 +50,11 @@ ul#nav {
 }
 
 div.item {
-  margin-bottom: 20px;
+  width: 100%;
+  margin: 0 auto 20px auto;
+}
+.work {
+  max-width: 638px;
 }
 .item h2 a {
   background: transparent;
@@ -63,12 +70,14 @@ div.item {
 }
 
 img.target {
-  -webkit-box-shadow:#000 0 0 18px;    
+  -webkit-box-shadow:#000 0 0 18px;   
+  width: 100%;   
+  max-width: 638px;
 }
 #content div.text div.thumbs a, #content div.text div.thumbs a:hover {
   background: transparent;
   border: none;
-  margin: 0 2px 0 0;
+  margin: 0 .8% 0 0;
   padding: 0;
   width: auto;
 }
@@ -78,14 +87,13 @@ div.thumbs {
 div.thumbs a img {
   margin: 0;
   padding: 0;
+  width: 31%;
+  border: 3px solid #111;
 }
 
 
-#content div.text div.item ul li {
-  margin: .3em 0;
-}
 #myassociate-caption, #hemi-caption, #abc-caption {
-width: 618px;
+
 margin:8px 0 0 2px;
   font-size: 1em;
   position: relative;
@@ -97,7 +105,7 @@ background: #2e2c3c;
   text-shadow: #000000 0 0 3px;
 }
 #content div.text div.item.emp ul li {
-  margin: .6em 0;
+  margin: 0 0 .6em 0;
   list-style: none;
 }
 #content div.text div.item.emp ul li a{
@@ -105,7 +113,7 @@ background: #2e2c3c;
 }
 /* @end */
 body {
-  font-size: 16px;
+  font-size:100%;
   background: #202008 url(/images/grass-sky.png) repeat-x 0 -55px;
   margin: 0;
 }
@@ -115,18 +123,19 @@ body {
 
 
 #container {
-  width: 884px;
+  width: 85%;
+  min-width: 560px;
+  max-width: 55em;
   margin: 0 auto;
 
 }
 #header {
 	padding: 10px 0;
 	margin: 0 auto;
-	width: 700px;
 	min-height: 200px;
 }
 #content {
-  width: 642px;
+
   margin: 0 auto;
   padding: 10px 30px;
   position: relative;
@@ -155,7 +164,7 @@ margin-bottom: .3em;
 #products div {
   margin: 10px;
   float: left;
-  width: 300px;
+  width: 45%;
 }
 hr.clear {
   clear: both;
@@ -191,10 +200,29 @@ h1 {
   line-height: .8em;
   font-family: "Delicious SmallCaps", Helvetica Neue, Arial;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   font-size: 3em;
   margin: 0;
+  padding: 0 30px;
   text-shadow: #000 0 0 100px;
+}
+
+.emp img.grav {
+  float: left;
+  margin: 0 1em 0 0;
+  width: 30%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.emp h2 small {
+  font-size: 60%;
+  color: #938fb7;
+}
+
+h1 a {
+  color: #aaa;
+  text-decoration: none;  
 }
 h2 {
   color: #fff;
@@ -210,6 +238,26 @@ h2 a {
 }
 h2 a:hover {
   color: #a7a6df;
+}
+
+#footer {
+  border-top: 1px dashed #292a0a;
+  border-right: 1px dashed #292a0a;
+  border-left: 1px dashed #292a0a;  
+  background: #161605;
+  padding: 20px;
+  font-family: "Palatino", "Georgia", serif;
+  color: #585813;
+  text-align: center;
+  font-size: 90%;
+  margin-top: 10px;
+}
+#footer a {
+  color: #999;
+  text-decoration: none;
+}
+#footer a:hover {
+  text-decoration: underline;
 }
 
 /* @group captions */

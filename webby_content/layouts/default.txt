@@ -15,23 +15,33 @@ filter:    haml
   %body
     #container
       #header
-        %h1 
-          Relatively 
-          %br
-          Early
-          %br
-          Development
+        %h1
+          %a{:href => '/'}
+            Relatively Early Development
         %ul#nav
           %li 
-            %a{:href => '#'} 
-              Contact
-          %li 
-            %a{:href => '/portfolio.html'} 
+            %a{:href => '/portfolio.html'}
               Portfolio
           %li 
-            %a{:href => '/about.html'} 
-              About              
+            %a{:href => '/about.html'}
+              About
+          %li 
+            %a{:href => '/contact.html'} 
+              Contact
       #content
         = @content
-        %br.clear      
+      %hr.clear
       #footer
+        %small &copy; 2009 Relatively Early Development
+        %small 
+          with some love from 
+          %a{:href => 'http://webby.rubyforge.org/'}
+            Webby
+          ,            
+          %a{:href => 'http://jquery.com/'}
+            jQuery  
+          ,            
+          and the
+          %a{:href => 'http://www.josbuivenga.demon.nl/delicious.html'}
+            Delicious font family
+        

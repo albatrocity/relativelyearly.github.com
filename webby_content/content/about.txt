@@ -9,8 +9,12 @@ filter:
   %p We are a small web development team based in Kansas City. We don't even have day jobs. Just kidding.
 
   .item.emp
-    %h2 Matt Pruitt
-    %p Matt is a complete turd. Really, he's just a big smelly log of poo. Just kidding, Matt is great. He likes doing stuff with computers. Last time I checked, he also pirates a lot of movies and stuff.
+    %h2 
+      Matt Pruitt
+      %small developer
+    %p 
+      %img.grav{:src => 'http://www.gravatar.com/avatar.php?gravatar_id=ff7e19f08834700cc9613bbcc986227a&size=100', :alt => 'Matt Pruitt'}
+      Matt is a complete turd. Really, he's just a big smelly log of poo. Just kidding, Matt is great. He likes doing stuff with computers. Last time I checked, he also pirates a lot of movies and stuff.
     %ul
       %li
         :javascript
@@ -39,8 +43,13 @@ filter:
           Twitter - @guitsaru
     %hr.clear
   .item.emp
-    %h2 Ross brown
-    %p Ross is awesome.
+    %h2 
+      Ross Brown
+      %small designer
+    %p
+      %img.grav{:src => 'http://www.gravatar.com/avatar.php?gravatar_id=6a9338a9dfa3616aa5e7b97b6d712753&size=100', :alt => 'Ross Brown'}
+      Ross has been making websites for over 6 years. He enjoys seeing ideas turn into functioning things and trying to make them look good. Ross also performs and records music and loves video games.
+      
     %ul
       %li
         :javascript
