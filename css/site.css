@@ -166,6 +166,10 @@ margin-bottom: .3em;
   float: left;
   width: 45%;
 }
+#products div img {
+  width: 90%;
+  max-width:250px;
+}
 hr.clear {
   clear: both;
   border: 1px solid #1d1e07;
@@ -229,12 +233,12 @@ h2 {
   font-family: "Delicious SmallCaps", Helvetica Neue, Arial;
   font-size: 2em;  
   margin: 0;
-  border-bottom: 4px groove #262707;
 }
 h2 a {
-  color: #00000a;
+  color: #000;
   text-decoration: none;
   text-shadow: #484912 0 1px 0;  
+  padding-left: 8px;
 }
 h2 a:hover {
   color: #a7a6df;
@@ -290,5 +294,5 @@ h2 a:hover {
 .caption-wrapper {
 	float: left;
 }
-br.c { clear: both; }
+br.c { clear: both; margin: 0; padding: 0; line-height: 1%;}
 /* @end */	
