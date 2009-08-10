@@ -1,0 +1,57 @@
+/* @override http://localhost:4000/stylesheets/style.css */
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+body {
+  background: #ccc url(/images/grass.png) repeat-x 0 141px;
+  font:14px "Lucida Grande", Lucida, Verdana, sans-serif;
+  color: #000;
+  overflow: hidden;
+}
+#sky {
+  background:url(/images/sky_bg.png) repeat-x;
+}
+#header {
+  padding: 0;
+  height: 184px;
+  text-align: center;
+}
+#header img {
+  width:244px;
+  margin: 0 auto;
+}
+#main {
+  margin: 0;
+  padding: 20px 0;
+  border-top: 2px solid #fff;
+  -webkit-box-shadow:0 -8px 10px rgba(0,0,0,.3);
+  background: url(/images/divider.png) repeat-y center;  
+}
+.content {
+  width: 900px;
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.leftcol {
+  float: left;	
+  width: 425px;
+  text-align: right;
+}
+.rightcol {
+  float: right;
+  width: 425px;
+  padding-left: 30px;
+}
+
+.clear {
+  clear: both;
+}
+br.clear {
+  line-height: 0;
+}
