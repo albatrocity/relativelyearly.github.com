@@ -130,14 +130,11 @@ div.navi a {
 }
 #main .content.divider {
   background: url(/images/divider.png) repeat-y center 0;   
-  width: 900px;
+  max-width: 900px;
 }
 .container.fluid {
   width: auto !important;
   min-width: 500px !important;
-}
-#posts.content {
-  padding-top: 20px;
 }
 .content {
   margin: 0 auto;  
@@ -149,7 +146,7 @@ div.navi a {
   padding: 0 20px;
 }
 .col {
-  padding-top: 10px;
+  padding: 10px 0;
   max-width: 47%;  
 }
 

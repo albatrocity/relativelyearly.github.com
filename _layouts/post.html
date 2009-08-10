@@ -11,14 +11,22 @@
       <div id="header" class="content"><a href="/" class="plain"><img src="/images/logo.png" alt="Relatively Early Development"/></a></div>
     </div>
     <div id="main" class="container fluid">
-      <div id="posts" class="content">
-        <div class="post">
-        <h1>{{ page.title }}</h1>
-        <cite>{{ page.date }}</cite>
-        {{ content }}
-        <a href="/archive.html"/>&larr; archives</a>       
-        <br class="clear"/>
-      </div>  
+      <div id="posts" class="content divider">
+        <div class="col left">
+          <div class="post">
+          <h1>{{ page.title }}</h1>
+          <cite>{{ page.date }}</cite>
+          {{ content }}
+          <a href="/archive.html"/>&larr; archives</a>       
+          <br class="clear"/>
+        </div>  
+      </div> 
+      
+      
+      <div class="col right"> 
+      <h1>Related Posts</h1>
+      </div>
+      <br class="clear"/>
     </div>
     </div>
     <div id="footer" class="container fluid">

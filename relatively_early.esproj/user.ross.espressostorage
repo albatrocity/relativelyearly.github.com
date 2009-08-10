@@ -19,12 +19,6 @@
 				<string>DefaultTab</string>
 			</dict>
 			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/archive.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
 				<key>StateType</key>
 				<string>PreviewTab</string>
 				<key>Title</key>
@@ -58,7 +52,13 @@
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/archive.html</string>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/page.html</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/archive.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
