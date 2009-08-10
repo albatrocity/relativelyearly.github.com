@@ -132,23 +132,22 @@ div.navi a {
   background: url(/images/divider.png) repeat-y center 0;   
   width: 900px;
 }
+.container.fluid {
+  width: auto !important;
+  min-width: 500px !important;
+}
 #posts.content {
   padding-top: 20px;
 }
 .content {
   margin: 0 auto;  
+  max-width: 900px;  
 }
 .container {
-  width: 900px;	
+  min-width: 900px;	
   margin: 0 auto;
   padding: 0 20px;
 }
-
-.container.fluid {
-  width: auto !important;
-  min-width: 500px !important;
-}
-
 .col {
   padding-top: 10px;
   max-width: 47%;  
