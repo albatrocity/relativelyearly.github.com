@@ -115,7 +115,6 @@ div.navi a {
 
 /* @end */
 
-
 /* @group Boxes */
 
 #main {
@@ -152,6 +151,16 @@ div.navi a {
 
 .col.right {
   padding-left: 30px;   
+}
+
+#posts div.col.left {
+  max-width: 60%;
+}
+#posts div.col.right {
+  max-width: 34%;
+}
+#posts.content.divider {
+  background: url(/images/divider.png) repeat-y 63% 0;     
 }
 #portfolio {
   padding-right: 20px;

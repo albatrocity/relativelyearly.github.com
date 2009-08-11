@@ -19,14 +19,6 @@
 				<string>DefaultTab</string>
 			</dict>
 			<dict>
-				<key>StateType</key>
-				<string>PreviewTab</string>
-				<key>Title</key>
-				<string>My Associate Cornelius</string>
-				<key>URL</key>
-				<string>http://localhost:4000/portfolio/my-associate-cornelius</string>
-			</dict>
-			<dict>
 				<key>DocumentURL</key>
 				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/index.html</string>
 				<key>StateType</key>
@@ -35,12 +27,6 @@
 			<dict>
 				<key>DocumentURL</key>
 				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/default.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/post.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
@@ -59,6 +45,18 @@
 			<dict>
 				<key>DocumentURL</key>
 				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/posts/portfolio/_posts/2009-8-7-my-associate-cornelius.textile</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/post.html</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_includes/main_post.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
