@@ -1,8 +1,32 @@
 ---
-layout: post
+layout: portfolio_item
 title: Heartland Missions
 permalink: portfolio/heartland
 image: images/portfolio/HEMI.png
 ---
 
-content
+<div class="scroller">
+  <div class="scrollable">
+    <div class="items">
+      <div>
+        <a rel="facebox" href="/images/portfolio/myassociatecornelius/full_size/portfolio.jpg">
+          !/images/portfolio/myassociatecornelius/portfolio.png!
+        </a>
+        <div class="desc">
+          <h3>Portfolio Page</h3>
+        </div>
+      </div>
+      
+      <div>
+        <a rel="facebox" href="/images/portfolio/myassociatecornelius/full_size/client.jpg">
+          !/images/portfolio/myassociatecornelius/client.png!
+        </a>
+        <div class="desc">
+          <h3>Client Section</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navi"></div>
+</div>
+The website and professional portfolio of A. Micah Smith. The site was designed by Micah and constructed by Relatively Early, including an administrative back-end for easy additions of portfolio and news items. In addition, we developed a private client section for easy project proofing.

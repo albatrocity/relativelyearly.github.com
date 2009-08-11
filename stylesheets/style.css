@@ -37,6 +37,14 @@ body {
 	root element for the scrollable. 
 	when scrolling occurs this element stays still. 
 */
+.post .scroller {
+  width: 410px;
+  text-align: center;
+  margin: 10px auto;
+}
+.post div.scrollable {
+  margin: 0 auto;
+}
 div.scrollable {
 	margin-top: 20px;
 	position:relative;
@@ -51,7 +59,9 @@ div.scrollable {
 	-webkit-box-shadow: 0 0 5px #fff;
 	-moz-box-shadow: 0 0 5px #fff;			
 }
-
+div.post div.portfolio {
+  width: ;
+}
 div.scrollable div.items {	
 	/* this cannot be too large */
 	width:20000em;	
@@ -90,6 +100,10 @@ div.scrollable div.items div.active {
 .navi {
   width: 150px;
   text-align: center;
+}
+.post .navi {
+  width: 400px;
+  margin: 10px 0;
 }
 div.navi a {
   padding: 2px 10px;
@@ -132,8 +146,7 @@ div.navi a {
   max-width: 900px;
 }
 .container.fluid {
-  width: auto !important;
-  min-width: 500px !important;
+  min-width: 680px !important;
 }
 .content {
   margin: 0 auto;  
@@ -153,15 +166,16 @@ div.navi a {
   padding-left: 30px;   
 }
 
-#posts div.col.left {
+#posts div.col.left, #footer div.col.left {
   max-width: 60%;
 }
-#posts div.col.right {
+#posts div.col.right, #footer div.col.right {
   max-width: 34%;
 }
 #posts.content.divider {
   background: url(/images/divider.png) repeat-y 63% 0;     
 }
+
 #portfolio {
   padding-right: 20px;
   overflow: hidden;
