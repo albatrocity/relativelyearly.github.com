@@ -9,24 +9,36 @@ image: images/portfolio/HEMI.png
   <div class="scrollable">
     <div class="items">
       <div>
-        <a rel="facebox" href="/images/portfolio/myassociatecornelius/full_size/portfolio.jpg">
-          !/images/portfolio/myassociatecornelius/portfolio.png!
+        <a rel="facebox" href="/images/portfolio/hemi/full_size/home.jpg">
+          !/images/portfolio/hemi/home.jpg!
         </a>
         <div class="desc">
-          <h3>Portfolio Page</h3>
+          <h3>Home Page</h3>
         </div>
       </div>
       
       <div>
-        <a rel="facebox" href="/images/portfolio/myassociatecornelius/full_size/client.jpg">
-          !/images/portfolio/myassociatecornelius/client.png!
+        <a rel="facebox" href="/images/portfolio/hemi/full_size/video.jpg">
+          !/images/portfolio/hemi/video.jpg!
         </a>
         <div class="desc">
-          <h3>Client Section</h3>
+          <h3>Videos</h3>
         </div>
       </div>
+      
+      <div>
+        <a rel="facebox" href="/images/portfolio/hemi/full_size/ww.jpg">
+          !/images/portfolio/hemi/ww.jpg!
+        </a>
+        <div class="desc">
+          <h3>Who's Where</h3>
+        </div>
+      </div>
+            
     </div>
   </div>
   <div class="navi"></div>
 </div>
-The website and professional portfolio of A. Micah Smith. The site was designed by Micah and constructed by Relatively Early, including an administrative back-end for easy additions of portfolio and news items. In addition, we developed a private client section for easy project proofing.
+"Heartland Community Church":http://heartlandchurch.org wanted a way to share and showcase their "missions activity":http://heartlandmissions.org with both their members and the rest of the world. Relatively Early worked with Heartland to develop an entire content management system for missions-based activity, including videos, calendar events, and image galleries. 
+
+In addition, a user-driven missionary activity showcase ("Who's Where":http://heartlandmissions.org/locations) was developed to highlight members' mission activities: past, present, and future. 
