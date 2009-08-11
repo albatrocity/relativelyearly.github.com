@@ -3,6 +3,7 @@ layout: portfolio_item
 title: Zappn
 permalink: portfolio/zappn
 image: images/portfolio/zappn.png
+location: http://zappn.com
 ---
 
 <div class="scroller">

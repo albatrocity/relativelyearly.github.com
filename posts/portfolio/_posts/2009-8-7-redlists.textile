@@ -3,6 +3,7 @@ layout: portfolio_item
 title: RedLists
 permalink: portfolio/redlists
 image: images/portfolio/redlists_small.png
+location: http://redlists.com
 ---
 
 <div class="scroller">

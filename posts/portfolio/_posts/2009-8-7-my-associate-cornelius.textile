@@ -3,6 +3,7 @@ layout: portfolio_item
 title: My Associate Cornelius
 permalink: portfolio/my-associate-cornelius
 image: images/portfolio/myassociatecornelius/slider.png
+location: http://myassociatecornelius.com
 ---
 <div class="scroller">
   <div class="scrollable">

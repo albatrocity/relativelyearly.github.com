@@ -3,6 +3,7 @@ layout: portfolio_item
 title: Heartland Missions
 permalink: portfolio/heartland
 image: images/portfolio/HEMI.png
+location: http://heartlandmissions.org
 ---
 
 <div class="scroller">
