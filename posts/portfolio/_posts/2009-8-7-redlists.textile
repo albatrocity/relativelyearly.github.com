@@ -1,8 +1,32 @@
 ---
-layout: post
+layout: portfolio_item
 title: RedLists
 permalink: portfolio/redlists
 image: images/portfolio/redlists_small.png
 ---
 
-content
+<div class="scroller">
+  <div class="scrollable">
+    <div class="items">
+      <div>
+        <a rel="facebox" href="/images/portfolio/myassociatecornelius/full_size/portfolio.jpg">
+          !/images/portfolio/myassociatecornelius/portfolio.png!
+        </a>
+        <div class="desc">
+          <h3>Portfolio Page</h3>
+        </div>
+      </div>
+      
+      <div>
+        <a rel="facebox" href="/images/portfolio/myassociatecornelius/full_size/client.jpg">
+          !/images/portfolio/myassociatecornelius/client.png!
+        </a>
+        <div class="desc">
+          <h3>Client Section</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navi"></div>
+</div>
+"RedLists":http://redlists.com is Relatively Early Development's first product.  It was created because there were no easy to use mailing list applications that didn't require web design skills.
