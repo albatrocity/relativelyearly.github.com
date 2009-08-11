@@ -19,16 +19,16 @@ title: Relatively Early Development
   <h2>Portfolio</h2>
   <a href="portfolio.html">view all</a>
 <div class="scrollable">
-	<div class="items">
-	  {% for post in site.categories.portfolio limit:5 %}
-		<div>
-		<a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}"/></a>
-		  <div class="desc">
-		    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		  </div>
-		</div>
-		{% endfor %}
-	</div>
+  <div class="items">
+    {% for post in site.categories.portfolio limit:5 %}
+    <div>
+    <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}"/></a>
+      <div class="desc">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>
   <a class="prev">&larr;</a>
   <a class="next">&rarr;</a>  
