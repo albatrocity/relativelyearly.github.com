@@ -5,6 +5,6 @@ permalink: portfolio/my-associate-cornelius
 image: images/portfolio/myassociatecornelius/slider.png
 ---
 
-!/images/portfolio/myassociatecornelius/portfolio.png!
+<a rel="facebox" class="plain" href="/images/portfolio/myassociatecornelius/full_size/portfolio.jpg"><img src="/images/portfolio/myassociatecornelius/portfolio.png" alt="My Associate Cornelius portfolio page" /></a>
 
 The website and professional portfolio of A. Micah Smith. The site was designed by Micah and constructed by Relatively Early, including an administrative back-end for easy additions of portfolio and news items. In addition, we developed a private client section for easy project proofing.

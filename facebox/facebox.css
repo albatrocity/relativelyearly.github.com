@@ -1,3 +1,5 @@
+/* @override http://localhost:4000/facebox/facebox.css */
+
 #facebox .b {
   background:url(/facebox/b.png);
 }
@@ -28,6 +30,17 @@
 
 #facebox .popup {
   position: relative;
+}
+#facebox div.popup table tbody tr td.body div.footer a.close {
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none;  
+}
+#facebox div.popup table tbody tr td.body div.footer a.close:hover {
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none; 
+  border-bottom: none; 
+  top: 0;
+  background: none;
 }
 
 #facebox table {
