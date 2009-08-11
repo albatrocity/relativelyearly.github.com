@@ -15,7 +15,19 @@
   </head>
 
   <body>
+<<<<<<< HEAD:_layouts/post.html
     {% include main_post.html %}  
+=======
+    <div id="sky" class="container fluid">
+      <div id="header" class="content"><a href="/" class="plain"><img src="/images/logo.png" alt="Relatively Early Development"/></a></div>
+    </div>
+    <div id="main" class="container fluid">
+      <div id="posts" class="content divider">
+        <div class="col left">
+          <div class="post">
+          <h1>{{ page.title }}</h1>
+          <cite>{{ page.date | date_to_long_string }}</cite>
+>>>>>>> be0459cb5cf9fad2208587504dc8ff2a39e3f8b3:_layouts/post.html
           {{ content }}
           <a href="/archive.html"/>&larr; archives</a>       
     {% include main_close.html %}
