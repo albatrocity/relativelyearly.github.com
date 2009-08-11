@@ -1,0 +1,8 @@
+---
+layout: post
+title: Heartland Missions
+permalink: portfolio/heartland
+image: images/portfolio/HEMI.png
+---
+
+content

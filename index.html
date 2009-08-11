@@ -5,7 +5,7 @@ title: Relatively Early Development
 
 <div class="col left">
 
-{% for post in site.posts limit:1 %}
+{% for post in site.categories.blog limit:1 %}
 <div class="post">
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <cite>Posted on {{ post.date | date_to_long_string }}.</cite>  
@@ -17,27 +17,17 @@ title: Relatively Early Development
 
 <div class="col right" id="portfolio">
   <h2>Portfolio</h2>
-  <a href="#">view all</a>
+  <a href="portfolio.html">view all</a>
 <div class="scrollable">
 	<div class="items">
+	  {% for post in site.categories.portfolio limit:5 %}
 		<div>
-		<a href="#"><img src="/images/portfolio/redlists_small.png" alt="RedLists" title="RedLists"/></a>
+		<a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}"/></a>
 		  <div class="desc">
-		    <h3><a href="#">RedLists</a></h3>
+		    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 		  </div>
-		</div>  
-		<div>
-  		<a href="#"><img src="/images/portfolio/HEMI.png" alt="Heartland Missions" title="Heartland Missions"/></a>
-  		  <div class="desc">
-  		    <h3><a href="#">Heartland Missions</a></h3>
-  		  </div>		
-		</div>  
-		<div>
-		  <a href="#"><img src="/images/portfolio/zappn.png" alt="Zappn" title="Zappn"/></a>
-		  <div class="desc">
-		    <h3><a href="#">zappn</a></h3>
-		  </div>		  
 		</div>
+		{% endfor %}
 	</div>
 </div>
   <a class="prev">&larr;</a>
