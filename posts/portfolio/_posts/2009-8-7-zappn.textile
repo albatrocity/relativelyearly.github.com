@@ -9,24 +9,36 @@ image: images/portfolio/zappn.png
   <div class="scrollable">
     <div class="items">
       <div>
-        <a rel="facebox" href="/images/portfolio/myassociatecornelius/full_size/portfolio.jpg">
-          !/images/portfolio/myassociatecornelius/portfolio.png!
+        <a rel="facebox" href="/images/portfolio/zappn/full_size/profile.jpg">
+          !/images/portfolio/zappn/profile.jpg!
         </a>
         <div class="desc">
-          <h3>Portfolio Page</h3>
+          <h3>Profile</h3>
         </div>
       </div>
       
       <div>
-        <a rel="facebox" href="/images/portfolio/myassociatecornelius/full_size/client.jpg">
-          !/images/portfolio/myassociatecornelius/client.png!
+        <a rel="facebox" href="/images/portfolio/zappn/full_size/events.jpg">
+          !/images/portfolio/zappn/events.jpg!
         </a>
         <div class="desc">
-          <h3>Client Section</h3>
+          <h3>Nearby Events</h3>
         </div>
       </div>
+      
+      <div>
+        <a rel="facebox" href="/images/portfolio/zappn/full_size/event.jpg">
+          !/images/portfolio/zappn/event.jpg!
+        </a>
+        <div class="desc">
+          <h3>Event Page</h3>
+        </div>
+      </div>        
+      
     </div>
   </div>
   <div class="navi"></div>
 </div>
-With a deadline fast approaching, the folks at "swindlr":http://swindlr.com/ needed to get their first product, "zappn":http://zappn.com, finished.  They hired Relatively Early Development and had a release in time for the "launch party":http://zappn.com/events/3-zappn-com-Launch-Event.
+With a deadline fast approaching, the folks at "swindlr":http://swindlr.com/ needed to get their first product, "zappn":http://zappn.com, finished.  They hired Relatively Early Development make their designs and ideas a reality. And like magic they had release in time for the "launch party":http://zappn.com/events/3-zappn-com-Launch-Event.
+
+Zappn is an event-based social networking site that focuses on sharing the experience through photos and comments. Users are shown upcoming events in their area and can create events and invite their friends. Relationships are based on a follow system and status updates and attendance statuses integrate with Twitter and the soon to be iPhone application.

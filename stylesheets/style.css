@@ -40,7 +40,7 @@ body {
 .post .scroller {
   width: 410px;
   text-align: center;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 .post div.scrollable {
   margin: 0 auto;
@@ -84,6 +84,9 @@ div.scrollable div.items div a {
   margin: 0;
   height: 265px;
   overflow: hidden;
+}
+#posts div.col.left div.scrollable div.items div a  img{
+  border: none ;
 }
 /* active item */
 div.scrollable div.items div.active {		
@@ -225,9 +228,15 @@ br.clear {
 
 /* @group Posts */
 .post h1, .post h2 {
-  margin-bottom: .3em !important;
   width: auto;
-  display: inline;
+  display: block;
+  margin-bottom: .3em;
+}
+.post h1 {
+  text-align: center;  
+}
+.post .col.right h1 {
+  text-align: left;
 }
 .post cite {
  display: block;
@@ -242,8 +251,6 @@ br.clear {
   margin: 0 auto;
   text-align: center;
   border: 6px solid #fff;
-  -webkit-border-radius:6px;
-  -moz-border-radius:6px;  
 }
 /* @end */
 h1, h2, h3 {
@@ -259,7 +266,7 @@ h1 a, h2 a, h3 a, .plain, .scrollable a {
   -webkit-box-shadow:none;
   padding: 0;
 }
-h1 a:hover, h2 a:hover, h3 a:hover, .plain:hover, #posts .post h1, .scrollable a:hover  {
+h1 a:hover, h2 a:hover, h3 a:hover, .plain:hover, .scrollable a:hover  {
   background: none;
   top: 0;
   -webkit-box-shadow:none; 
