@@ -1,7 +1,7 @@
 ---
 layout: portfolio_item
 title: My Associate Cornelius
-permalink: portfolio/my-associate-cornelius
+permalink: portfolio/my-associate-cornelius.html
 image: images/portfolio/myassociatecornelius/slider.png
 location: http://myassociatecornelius.com
 ---

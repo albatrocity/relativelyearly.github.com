@@ -1,7 +1,7 @@
 ---
 layout: portfolio_item
 title: Zappn
-permalink: portfolio/zappn
+permalink: portfolio/zappn.html
 image: images/portfolio/zappn.png
 location: http://zappn.com
 ---

@@ -1,7 +1,7 @@
 ---
 layout: portfolio_item
 title: Heartland Missions
-permalink: portfolio/heartland
+permalink: portfolio/heartland.html
 image: images/portfolio/HEMI.png
 location: http://heartlandmissions.org
 ---

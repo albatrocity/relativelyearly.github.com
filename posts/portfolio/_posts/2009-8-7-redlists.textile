@@ -1,7 +1,7 @@
 ---
 layout: portfolio_item
 title: RedLists
-permalink: portfolio/redlists
+permalink: portfolio/redlists.html
 image: images/portfolio/redlists_small.png
 location: http://redlists.com
 ---

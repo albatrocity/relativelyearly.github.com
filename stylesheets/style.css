@@ -34,7 +34,7 @@ body {
 
 #header img {
   width:244px;
-  margin: 10px auto 0 auto;
+  margin: 8px auto 2px auto;
 }
 
 /* @group nav */
@@ -42,7 +42,7 @@ body {
 ul#nav {
   list-style: none;
   padding: 0;
-  width: 345px;
+  width: 460px;
   margin: 8px auto;
 }
 ul#nav li {
@@ -240,15 +240,16 @@ div.navi a {
 body.fluid #footer .col.right{
   max-width: 34%;  
 }
-#footer .col.right {
-  overflow: hidden;  
-}
+
 body.page #footer .col.left {
   max-width: 47%;
 }
 
 body.fluid .col.right {
   max-width: 34%;
+}
+body.page.fluid .col.right {
+  max-width: 47% !important;
 }
 /* @end */
 
@@ -380,7 +381,7 @@ h4 {
 .person ul li {
   list-style: none;
   padding: 0 0 0 8px;
-  margin: 4px 0;
+  margin: 5px 0;
 }
 .person ul li a img {
 	position: relative;
@@ -433,7 +434,6 @@ border: none;
 }
 #footer ul {
   padding: 0 0 0 2em;
-  width: 420px;
 }
 #footer li {
   list-style: none;
