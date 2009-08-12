@@ -4,6 +4,11 @@ title: Relatively Early Development
 ---
 <div class="container">
   <div class="col left">
+    <h1>Hello</h1>
+    <p>Relatively Early is a web development consultancy based in Kansas City specializing in Ruby on Rails. We'd like to work with you to make your ideas come to life.</p>
+  </div>
+  
+  <div class="col right">
     {% for post in site.categories.blog limit:1 %}
     <div class="post">
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -14,12 +19,7 @@ title: Relatively Early Development
     </div>
     {% endfor %}
   </div>
-  
-  <div class="col right">
-    <h1>Hello</h1>
-    <p>Relatively Early is a web development consultancy based in Kansas City specializing in Ruby on Rails. We'd like to work with you to make your ideas come to life.</p>
-  </div>
-  <hr />
+  <hr class="double"/>
   
 <div class="container">
   <div class="col left"> 

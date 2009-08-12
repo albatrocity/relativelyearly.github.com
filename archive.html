@@ -9,7 +9,7 @@ title: Relatively Early Blog
       <div class="post">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <cite>Posted on {{ post.date | date_to_long_string }}.</cite>  
-        <a class="plain" href="{{ post.url }}#disqus_thread">View Comments</a>        
+        <cite><a class="plain" href="{{ post.url }}#disqus_thread">View Comments</a></cite>
       </div>
     {% endfor %}
   </div>

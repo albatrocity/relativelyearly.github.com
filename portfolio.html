@@ -5,6 +5,8 @@ title: Portfolio
 <div class="content divider">
   <div class="col left">
     <h1>{{ page.title }}</h1>
+  </div>
+  <br class="clear"/>  
     {% for post in site.categories.portfolio %}
       <div class="container">
         <div class="col left">
@@ -15,8 +17,10 @@ title: Portfolio
         <div class="col right">
           <a class="plain" href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"/></a>
         </div>  
+        <br class="clear"/>
       </div>
-      <br class="clear"/>
+      <hr class="double"/>
+
     {% endfor %}
   </div>
-</div>  
+              <br class="clear"/>  
