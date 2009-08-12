@@ -83,12 +83,12 @@ ul#nav li a:hover, ul#nav li a.active{
 	root element for the scrollable. 
 	when scrolling occurs this element stays still. 
 */
-.post .scroller {
+.portfolio_item .scroller {
   width: 410px;
   text-align: center;
   margin: 20px auto;
 }
-.post div.scrollable {
+.portfolio_item div.scrollable {
   margin: 0 auto;
 }
 div.scrollable {
@@ -169,7 +169,9 @@ div.navi a {
 
 /* @end */
 
-
+.portfolio_item h1 {
+  text-align: center;
+}
 
 /* @end */
 
@@ -189,7 +191,7 @@ div.navi a {
   background: url(/images/divider.png) repeat-y center 0;   
   max-width: 900px;
 }
-.container.fluid {
+.container.fluid, body.fluid #footer {
   min-width: 680px !important;
 }
 .content {
@@ -213,9 +215,6 @@ div.navi a {
 #posts div.col.left, #footer div.col.left {
   max-width: 60%;
 }
-#posts div.col.right {
-  max-width: 34%;
-}
 
 #posts.content.divider {
   background: url(/images/divider.png) repeat-y 63% 0;     
@@ -236,8 +235,19 @@ div.navi a {
 }
 #footer p {
   color: #999;
+
 }
-body.post #footer .col.right, body.portfolio-item #footer .col.right, body.page #footer .col.right{
+body.fluid #footer .col.right{
+  max-width: 34%;  
+}
+#footer .col.right {
+  overflow: hidden;  
+}
+body.page #footer .col.left {
+  max-width: 47%;
+}
+
+body.fluid .col.right {
   max-width: 34%;
 }
 /* @end */
@@ -422,7 +432,8 @@ border: none;
   background: #111;
 }
 #footer ul {
-  padding: 0 2em;
+  padding: 0 0 0 2em;
+  width: 420px;
 }
 #footer li {
   list-style: none;

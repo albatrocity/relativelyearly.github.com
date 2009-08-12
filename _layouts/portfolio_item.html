@@ -16,14 +16,13 @@
     </script>
   </head>
 
-  <body class="portfolio-item">
+  <body class="fluid">
     {% include header.html %}  
     <div id="main" class="container fluid">
       <div id="posts" class="content divider">
         <div class="col left">
-          <div class="post">
+          <div class="portfolio_item">
             <h1>{{ page.title }}</h1>
-            <cite>{{ page.date | date_to_long_string }}</cite>
             {{ content }}
           </div>
           <a class="button" href="/portfolio.html"/>&larr; portfolio</a>
