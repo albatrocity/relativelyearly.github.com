@@ -9,10 +9,11 @@ title: Relatively Early Development
 <div class="post">
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <cite>Posted on {{ post.date | date_to_long_string }}.</cite>  
-  {{ post.excerpt }}
+  <p>{{ post.excerpt }}</p>
+  <a class="button" href="{{ post.url }}">read more</a>
+  <br class="clear"/>
 </div>
 {% endfor %}
-<a class="button" href="/archive.html">read more entries</a>
 
 <hr />
 

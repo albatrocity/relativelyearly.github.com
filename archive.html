@@ -1,26 +1,36 @@
 ---
 layout: page
-title: Archives
+title: Relatively Early Blog
 ---
 <div class="content divider">
   <div class="col left">
-    <h1>{{ page.title }}</h1>
+
     {% for post in site.categories.blog %}
       <div class="post">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <cite>Posted on {{ post.date | date_to_long_string }}.</cite>  
+        <a class="plain" href="{{ post.url }}#disqus_thread">View Comments</a>        
       </div>
     {% endfor %}
   </div>
   
 <div class="col right">
-  <h1>Tags</h1>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit.</p>
-
-<p>Quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit.</p>
-
-Enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet.</p>
-</div>
-  
+  <div id="dsq-recentcomments" class="dsq-widget"><h1 class="dsq-widget-title">Recent Comments</h1><script type="text/javascript" src="http://disqus.com/forums/red/recent_comments_widget.js?num_items=5&avatar_size=32"></script></div>
+  </div>
   <br class="clear"/>
 </div>  
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+		var links = document.getElementsByTagName('a');
+		var query = '?';
+		for(var i = 0; i < links.length; i++) {
+			if(links[i].href.indexOf('#disqus_thread') >= 0) {
+				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+			}
+		}
+		document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/red/get_num_replies.js' + query + '"></' + 'script>');
+	})();
+//]]>
+</script>
