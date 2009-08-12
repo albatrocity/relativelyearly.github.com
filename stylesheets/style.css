@@ -1,4 +1,9 @@
-/* @override http://localhost:4000/stylesheets/style.css */
+/* @override 
+	http://localhost:4000/stylesheets/style.css
+	http://static.flowplayer.org/tools/css/scrollable-minimal.css
+	http://relativelyearly.com/stylesheets/style.css
+*/
+
 body, html {
   padding: 0;
   margin: 0;
@@ -72,21 +77,20 @@ ul#nav li a:hover, ul#nav li a.active{
 
 
 /* @end */
+
 /* @group Portfolio */
 
 /* @group scroller */
-
-/* @override http://static.flowplayer.org/tools/css/scrollable-minimal.css */
 
 
 /* 
 	root element for the scrollable. 
 	when scrolling occurs this element stays still. 
 */
-.portfolio_item .scroller {
+#main.portfolio_item div.scroller {
   width: 410px;
   text-align: center;
-  margin: 20px auto;
+  margin: 1.5em auto;
 }
 .portfolio_item div.scrollable {
   margin: 0 auto;
@@ -173,6 +177,10 @@ div.navi a {
   text-align: center;
 }
 
+.portfolio_item #posts div.col.right p {
+  margin-top: 2.5em;
+}
+
 /* @end */
 
 /* @group Boxes */
@@ -216,7 +224,7 @@ div.navi a {
 }
 
 #posts div.col.left, #footer div.col.left {
-  max-width: 60%;
+  min-width: 60%;
 }
 
 #posts.content.divider {
@@ -295,7 +303,7 @@ br.clear {
 .post h1, .post h2 {
   width: auto;
   display: block;
-  margin-bottom: .3em;
+  margin-bottom: 0;
 }
 .portfolio .post h1 {
   text-align: center;  
@@ -306,7 +314,7 @@ br.clear {
 .post cite {
  display: block;
  line-height: .9em;
- margin: 0;
+ margin: 1em 0 .4em 0;
   font-weight: normal;
   font-style: normal;
   text-transform: uppercase;
@@ -472,6 +480,18 @@ background: url(../images/hr_double.png) no-repeat;
 div.post {
   margin-bottom: 1.5em;
 }
-
-
+#dsq-content a, .dsq-menu a{
+  background: none;
+  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+  top: 0;
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none;  
+}
+#dsq-content a:hover{
+	border: none;
+	text-decoration: underline;
+}	
+#dsq-content h3 {
+  font-size: 1em;
+}	
 /* @end */

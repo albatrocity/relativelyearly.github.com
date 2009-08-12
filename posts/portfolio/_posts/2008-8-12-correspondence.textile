@@ -10,6 +10,8 @@ tags:
   - Development
 ---
 
+        <div class="col left">
+            <h1><a href="{{ page.location }}">{{ page.title }}</a></h1>
 <div class="scroller">
   <div class="scrollable">
     <div class="items">
@@ -70,6 +72,16 @@ tags:
     </div>
   </div>
   <div class="navi"></div>
+  <img src="/images/column_stretch.png"/>
 </div>
 
-For the 2008 "Rails Rumble":http://railsrumble.com, Relatively Early Development created an application called _RedMinutes_ to facilitate in notetaking, sharing, and discussion. The application placed in the top 25 in the contest. After the contest, we began expanding on the idea. Correspondence is an application incorporating discussions, time tracking, and RedMinute's note taking to facilitate team communication.
+
+          <a class="button" href="/portfolio.html"/>&larr; portfolio</a>
+          <br class="clear"/>
+        </div>  
+
+      
+      
+      <div class="col right"> 
+For the 2008 "Rails Rumble":http://railsrumble.com, Relatively Early Development created an application called _RedMinutes_ to facilitate in notetaking, sharing, and discussion. The application placed in the top 25 in the contest. After the contest, we began expanding on the idea. Correspondence is an application incorporating discussions, time tracking, and RedMinute's note taking to facilitate team communication.      
+      </div>
