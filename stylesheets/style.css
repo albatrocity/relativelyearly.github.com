@@ -436,7 +436,7 @@ background:#ccc url(../images/hr.png) no-repeat;
 border: none;
 }
 hr.double {
-background:#ccc url(../images/hr_double.png) no-repeat;
+background: url(../images/hr_double.png) no-repeat;
 }
 
 #footer a {
