@@ -10,6 +10,8 @@ tags:
   - Development
 ---
 
+        <div class="col left">
+            <h1><a href="{{ page.location }}">{{ page.title }}</a></h1>
 <div class="scroller">
   <div class="scrollable">
     <div class="items">
@@ -44,6 +46,16 @@ tags:
   </div>
   <div class="navi"></div>
 </div>
+
+
+          <a class="button" href="/portfolio.html"/>&larr; portfolio</a>
+          <br class="clear"/>
+        </div>  
+
+      
+      
+      <div class="col right"> 
 "Heartland Community Church":http://heartlandchurch.org wanted a way to share and showcase their "missions activity":http://heartlandmissions.org with both their members and the rest of the world. Relatively Early worked with Heartland to develop an entire content management system for missions-based activity, including videos, calendar events, and image galleries. 
 
 In addition, a user-driven missionary activity showcase ("Who's Where":http://heartlandmissions.org/locations) was developed to highlight members' mission activities: past, present, and future. 
+</div>

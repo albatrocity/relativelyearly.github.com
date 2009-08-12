@@ -8,6 +8,8 @@ excerpt: "Zappn is an event-based social networking site that focuses on sharing
 tags: 
   - Development
 ---
+        <div class="col left">
+            <h1><a href="{{ page.location }}">{{ page.title }}</a></h1>
 
 <div class="scroller">
   <div class="scrollable">
@@ -43,6 +45,16 @@ tags:
   </div>
   <div class="navi"></div>
 </div>
+
+
+          <a class="button" href="/portfolio.html"/>&larr; portfolio</a>
+          <br class="clear"/>
+        </div>  
+
+      
+      
+      <div class="col right">
 With a deadline fast approaching, the folks at "swindlr":http://swindlr.com/ needed to get their first product, "zappn":http://zappn.com, finished.  They hired Relatively Early Development make their designs and ideas a reality. And like magic they had release in time for the "launch party":http://zappn.com/events/3-zappn-com-Launch-Event.
 
 Zappn is an event-based social networking site that focuses on sharing the experience through photos and comments. Users are shown upcoming events in their area and can create events and invite their friends. Relationships are based on a follow system and status updates and attendance statuses integrate with Twitter and the soon to be iPhone application.
+</div>

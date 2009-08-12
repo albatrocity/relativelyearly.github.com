@@ -72,7 +72,6 @@ tags:
     </div>
   </div>
   <div class="navi"></div>
-  <img src="/images/column_stretch.png"/>
 </div>
 
 
