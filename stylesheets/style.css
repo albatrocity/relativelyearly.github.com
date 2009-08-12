@@ -190,6 +190,7 @@ div.navi a {
   border-top: 2px solid #fff;
   height: 100%;
   background: #ccc;  
+  padding: 0;
 }
 
 #main.content {
