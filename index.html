@@ -13,11 +13,42 @@ title: Relatively Early Development
 </div>
 {% endfor %}
 <a class="button tright" href="/archive.html">read more entries</a>
+
+<hr />
+
+<div id="personals">
+<div class="person">
+  <img src="/images/matt.jpg" alt="Matt Pruitt" />
+  <div class="info">
+    <h2>Matt Pruitt</h2>
+    <h4>Founder/Developer</h4>
+    <ul>
+      <li>
+        <a title="Twitter" href="http://twitter.com/guitsaru"><img class="nob" src="/images/twitter.png" alt="Twitter" />@guitsaru</a></li>
+      <li><a title="Blog" href="http://guitsaru.com"><img class="nob" src="/images/blog.png" alt="Blog" />guitsaru.com</a></li>
+      <li><a title="GitHub" href="http://github.com/guitsaru"><img class="nob" src="/images/github.png" alt="Github"/>guitsaru</a></li>    
+    </ul>
+  </div>  
+  <br class="clear"/>  
+</div>
+<div class="person">
+  <img src="/images/ross.jpg" alt="Ross Brown" />
+  <div class="info">
+    <h2>Ross Brown</h2>
+    <h4>Founder/Developer</h4>
+    <ul>
+      <li><a title="Twitter" href="http://twitter.com/albatrocity"><img class="nob" src="/images/twitter.png" alt="Twitter" />@albatrocity</a></li>
+      <li><a title="Blog" href="http://rossisbrown.com"><img class="nob" src="/images/blog.png" alt="Blog" />rossisbrown.com</a></li>    
+      <li><a title="GitHub" href="http://github.com/albatrocity"><img class="nob" src="/images/github.png" alt="Blog" />albatrocity</a></li>    
+    </ul>  
+  </div>  
+  <br class="clear"/>  
+</div>
+</div>
 </div>
 
 <div class="col right" id="portfolio">
-  <h2>Portfolio</h2>
-  <a href="portfolio.html">view all</a>
+  <h1><a href="/portfolio.html">Portfolio</a></h1>
 <div class="scrollable">
   <div class="items">
     {% for post in site.categories.portfolio limit:5 %}
@@ -27,12 +58,12 @@ title: Relatively Early Development
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       </div>
     </div>
-    {% endfor %}
+    {% endfor %}    
   </div>
 </div>
   <a class="prev">&larr;</a>
   <a class="next">&rarr;</a>  
   <div class="navi"></div>
  <br class="clear"/>
-  
+  <a class="button" href="portfolio.html">view all</a>  
 </div>

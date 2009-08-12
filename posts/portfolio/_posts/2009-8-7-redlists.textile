@@ -30,4 +30,4 @@ location: http://redlists.com
   </div>
   <div class="navi"></div>
 </div>
-"RedLists":http://redlists.com is Relatively Early Development's first product.  It was created because there were no easy to use mailing list applications that didn't require web design skills.
+"RedLists":http://redlists.com is Relatively Early Development's first product. It was created to offer an easy way to manage multiple mailing lists with ease.
