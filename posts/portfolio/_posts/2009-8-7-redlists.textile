@@ -4,6 +4,10 @@ title: RedLists
 permalink: portfolio/redlists.html
 image: images/portfolio/redlists_small.png
 location: http://redlists.com
+excerpt: "RedLists is Relatively Early Development's first product, providing a way to manage multiple mailing lists with ease."
+tags: 
+  - Design
+  - Development
 ---
 
 <div class="scroller">

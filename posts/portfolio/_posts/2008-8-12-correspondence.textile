@@ -1,0 +1,75 @@
+---
+layout: portfolio_item
+title: Correspondence
+permalink: portfolio/correspondence.html
+image: images/portfolio/correspondence/slider.jpg
+location: http://correspondenceapp.com
+excerpt: "Correspondence is an application incorporating discussions, time tracking, and RedMinute's note taking to facilitate team communication."
+tags: 
+  - Design
+  - Development
+---
+
+<div class="scroller">
+  <div class="scrollable">
+    <div class="items">
+      <div>
+        <a rel="facebox" href="/images/portfolio/correspondence/full_size/landing.jpg">
+          !/images/portfolio/correspondence/landing.jpg!
+        </a>
+        <div class="desc">
+          <h3>Landing Page</h3>
+        </div>
+      </div>
+      
+      <div>
+        <a rel="facebox" href="/images/portfolio/correspondence/full_size/dashboard.jpg">
+          !/images/portfolio/correspondence/dashboard.jpg!
+        </a>
+        <div class="desc">
+          <h3>Dashboard</h3>
+        </div>
+      </div>
+
+      <div>
+        <a rel="facebox" href="/images/portfolio/correspondence/full_size/projects.jpg">
+          !/images/portfolio/correspondence/projects.jpg!
+        </a>
+        <div class="desc">
+          <h3>Projects and Roles</h3>
+        </div>
+      </div>
+
+      <div>
+        <a rel="facebox" href="/images/portfolio/correspondence/full_size/note.jpg">
+          !/images/portfolio/correspondence/note.jpg!
+        </a>
+        <div class="desc">
+          <h3>Note</h3>
+        </div>
+      </div>
+      
+      <div>
+        <a rel="facebox" href="/images/portfolio/correspondence/full_size/discussion_audio.jpg">
+          !/images/portfolio/correspondence/discussion_audio.jpg!
+        </a>
+        <div class="desc">
+          <h3>Discussion with Audio Attachment</h3>
+        </div>
+      </div>      
+      
+      <div>
+        <a rel="facebox" href="/images/portfolio/correspondence/full_size/discussion_pdf.jpg">
+          !/images/portfolio/correspondence/discussion_pdf.jpg!
+        </a>
+        <div class="desc">
+          <h3>Discussion with PDF Attachment</h3>
+        </div>
+      </div>      
+      
+    </div>
+  </div>
+  <div class="navi"></div>
+</div>
+
+For the 2008 "Rails Rumble":http://railsrumble.com, Relatively Early Development created an application called _RedMinutes_ to facilitate in notetaking, sharing, and discussion. The application placed in the top 25 in the contest. After the contest, we began expanding on the idea. Correspondence is an application incorporating discussions, time tracking, and RedMinute's note taking to facilitate team communication.

@@ -148,7 +148,7 @@ div.scrollable div.items div.active {
   position: relative;
 }
 .navi {
-  width: 150px;
+  width: 200px;
   text-align: center;
 }
 .post .navi {
@@ -203,6 +203,9 @@ div.navi a {
   margin: 0 auto;
   padding: 0 20px;
 }
+.container .content .container {
+  padding: 0;
+}
 .col {
   padding: 10px 0;
   max-width: 47%;  
@@ -229,6 +232,7 @@ div.navi a {
   padding-bottom: 20px;
   background: #222;
   max-width: 100%;
+  border-top: 1px solid #777;
 }
 #footer * {
   color: #ddd;

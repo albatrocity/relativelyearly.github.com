@@ -1,0 +1,43 @@
+---
+layout: page
+title: Services
+---
+<div class="content divider">
+
+    <div class="container">    
+      <div class="col left">
+      
+h2. Design
+    
+*Custom website and web application design*. Visual impact and user interfacing is an extremely important part of your online identity.    
+</div>
+
+<div class="col right">
+
+h4. Things designed by us
+
+"RedLists":/portfolio/redlists.html "Correspondence":/portfolio/correspondence.html "Ross Brown":http://rossisbrown.com
+
+<img src="/images/column_stretch.png" alt="Fooled you!"/>
+
+</div>
+<br class="clear"/>
+  </div>
+  <div class="container">
+    <div class="col left">
+
+h2. Development
+
+*Custom website and web application development in Ruby on Rails and jQuery*. Whatever your needs may be, we'll work with you to meet them.      
+
+    </div>
+  
+    <div class="col right">  
+    
+h4. Things developed by us
+
+"RedLists":/portfolio/redlists.html "Heartland Missions":/portfolio/heartland.html "zappn":/portfolio/zappn.html "My Associate Cornelius":/portfolio/my-associate-cornelius.html "ABCreative":http://abcreative.net
+    </div>
+  
+  <br class="clear"/>
+</div>  

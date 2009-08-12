@@ -6,15 +6,17 @@ title: Portfolio
   <div class="col left">
     <h1>{{ page.title }}</h1>
     {% for post in site.categories.portfolio %}
-      <div class="post">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="container">
+        <div class="col left">
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p>{{ post.excerpt }}</p>
+          <strong>{{ post.tags | array_to_sentence_string }}</strong>
+        </div>
+        <div class="col right">
+          <a class="plain" href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"/></a>
+        </div>  
       </div>
+      <br class="clear"/>
     {% endfor %}
   </div>
-  
-<div class="col right">
-  <h1>Tags</h1>
-</div>
-  
-  <br class="clear"/>
 </div>  

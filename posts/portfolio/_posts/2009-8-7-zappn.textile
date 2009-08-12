@@ -4,6 +4,9 @@ title: Zappn
 permalink: portfolio/zappn.html
 image: images/portfolio/zappn.png
 location: http://zappn.com
+excerpt: "Zappn is an event-based social networking site that focuses on sharing the experience through photos and comments."
+tags: 
+  - Development
 ---
 
 <div class="scroller">

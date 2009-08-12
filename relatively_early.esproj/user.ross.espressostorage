@@ -14,31 +14,13 @@
 		<array>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_includes/header.html</string>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/services.textile</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/.Trash/nav</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/default.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/page.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/post.html</string>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/posts/portfolio/_posts/2008-8-12-correspondence.textile</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
@@ -50,19 +32,7 @@
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/posts/blog/_posts/2009-8-11-new-website.textile</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/index.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_includes/footer.html</string>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/portfolio.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
@@ -87,12 +57,6 @@
 			<dict>
 				<key>DocumentURL</key>
 				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/posts/portfolio/_posts/2009-8-7-zappn.textile</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/archive.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>

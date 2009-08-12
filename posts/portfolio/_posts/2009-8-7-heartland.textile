@@ -4,6 +4,10 @@ title: Heartland Missions
 permalink: portfolio/heartland.html
 image: images/portfolio/HEMI.png
 location: http://heartlandmissions.org
+excerpt: "Relatively Early worked with Heartland to develop an entire content management system for missions-based activity, including videos, calendar events, and image galleries."
+tags: 
+  - Design
+  - Development
 ---
 
 <div class="scroller">
