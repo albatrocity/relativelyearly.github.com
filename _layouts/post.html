@@ -17,10 +17,19 @@
   </head>
 
   <body class="post">
-    {% include main_post.html %}  
-          {{ content }}
-          <a class="button" href="/archive.html"/>&larr; archives</a>       
-    {% include main_close.html %}
+    {% include header.html %}  
+    <div id="main" class="container fluid">
+      <div id="posts" class="content divider">
+        <div class="col left">
+          <div class="post">
+            <h1>{{ page.title }}</h1>
+            <cite>{{ page.date | date_to_long_string }}</cite>
+            {{ content }}
+          </div>
+          <a class="button" href="/archive.html"/>&larr; archives</a>
+          <br class="clear"/>
+        </div>  
+
       
       
       <div class="col right"> 
@@ -30,6 +39,6 @@
       <br class="clear"/>
     </div>
     </div>
-    {% include footer_fluid.html %}
+    {% include footer.html %}
   </body>
 </html>

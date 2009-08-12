@@ -10,9 +10,14 @@
   </head>
 
   <body>
-    {% include main.html %}
-        {{ content }}
-    {% include main_close.html %}        
-    {% include footer.html %}
+    <div id="sky" class="container">
+      {% include header.html %}
+      <div id="main" class="container">
+        <div class="content divider">    
+          {{ content }}
+          <br class="clear"/>
+      </div>
+    </div>
+      {% include footer.html %}
   </body>
 </html>

@@ -3,12 +3,12 @@ $(function() {
 		interval: 8000,
 		size: 1,
 		loop: true, 
-		speed: 1000,
+		speed: 600,
 		onBeforeSeek: function() {
-			this.getItems().fadeTo(500, .8);		
+			this.getItems().fadeTo(300, .8);		
 		},
 		onSeek: function() {
-			this.getItems().fadeTo(500, 1);
+			this.getItems().fadeTo(300, 1);
 		}
 	});	
 });

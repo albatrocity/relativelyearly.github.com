@@ -1,6 +1,5 @@
 $(function() {		
 	$("div.scrollable").scrollable({
-		interval: 4000,
 		size: 1,
 		loop: true, 
 		speed: 1000,

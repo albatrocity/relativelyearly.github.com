@@ -10,24 +10,63 @@ location: http://redlists.com
   <div class="scrollable">
     <div class="items">
       <div>
-        <a rel="facebox" href="/images/portfolio/myassociatecornelius/full_size/portfolio.jpg">
-          !/images/portfolio/myassociatecornelius/portfolio.png!
+        <a rel="facebox" href="/images/portfolio/redlists/full_size/home.jpg">
+          !/images/portfolio/redlists/home.jpg!
         </a>
         <div class="desc">
-          <h3>Portfolio Page</h3>
+          <h3>Home</h3>
         </div>
       </div>
       
       <div>
-        <a rel="facebox" href="/images/portfolio/myassociatecornelius/full_size/client.jpg">
-          !/images/portfolio/myassociatecornelius/client.png!
+        <a rel="facebox" href="/images/portfolio/redlists/full_size/lists.jpg">
+          !/images/portfolio/redlists/lists.jpg!
         </a>
         <div class="desc">
-          <h3>Client Section</h3>
+          <h3>Mailing Lists</h3>
         </div>
       </div>
+
+      <div>
+        <a rel="facebox" href="/images/portfolio/redlists/full_size/messages.jpg">
+          !/images/portfolio/redlists/messages.jpg!
+        </a>
+        <div class="desc">
+          <h3>Messages</h3>
+        </div>
+      </div>
+
+      <div>
+        <a rel="facebox" href="/images/portfolio/redlists/full_size/new_message.jpg">
+          !/images/portfolio/redlists/new_message.jpg!
+        </a>
+        <div class="desc">
+          <h3>New Message</h3>
+        </div>
+      </div>
+      
+      <div>
+        <a rel="facebox" href="/images/portfolio/redlists/full_size/sent.jpg">
+          !/images/portfolio/redlists/sent.jpg!
+        </a>
+        <div class="desc">
+          <h3>View Sent Message</h3>
+        </div>
+      </div>      
+      
+      <div>
+        <a rel="facebox" href="/images/portfolio/redlists/full_size/list_subscribers.jpg">
+          !/images/portfolio/redlists/list_subscribers.jpg!
+        </a>
+        <div class="desc">
+          <h3>List Subscribers</h3>
+        </div>
+      </div>      
+      
     </div>
   </div>
   <div class="navi"></div>
 </div>
-"RedLists":http://redlists.com is Relatively Early Development's first product. It was created to offer an easy way to manage multiple mailing lists with ease.
+"RedLists":http://redlists.com is Relatively Early Development's first product, providing a way to manage multiple mailing lists with ease. It let users manage their own subscriptions, leaving you free to focus on your outgoing content.
+
+RedLists was designed and developed completely by Relatively Early.

@@ -14,55 +14,19 @@
 		<array>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_config.yml</string>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_includes/header.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/posts/portfolio/_posts/2009-8-7-zappn.textile</string>
+				<string>file://localhost/Users/ross/.Trash/nav</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_includes/main_portfolio_item.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/index.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_includes/footer_fluid.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_includes/footer.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/portfolio_item.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/post.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/posts/portfolio/_posts/2009-8-7-redlists.textile</string>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/default.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
@@ -74,7 +38,25 @@
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/post.html</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/portfolio_item.html</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
 				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/posts/blog/_posts/2009-8-11-new-website.textile</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/index.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
