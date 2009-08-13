@@ -82,5 +82,5 @@ tags:
       
       
       <div class="col right"> 
-For the 2008 "Rails Rumble":http://railsrumble.com, Relatively Early Development created an application called _RedMinutes_ to facilitate in notetaking, sharing, and discussion. The application placed in the top 25 in the contest. After the contest, we began expanding on the idea. Correspondence is an application incorporating discussions, time tracking, and RedMinute's note taking to facilitate team communication.      
+For the 2008 "Rails Rumble":http://railsrumble.com, Relatively Early Development created an application called _RedMinutes_ to facilitate note taking, sharing, and discussion. The application placed in the top 25 in the contest. After the contest, we began expanding on the idea. Correspondence is an application incorporating discussions, time tracking, and RedMinute's note taking to facilitate team communication.
       </div>
