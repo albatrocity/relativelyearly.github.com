@@ -202,7 +202,7 @@ div.navi a {
 .container.fluid, body.fluid #footer {
   min-width: 680px !important;
 }
-.content {
+#main .content {
   margin: 0 auto;  
   max-width: 900px;  
 }
