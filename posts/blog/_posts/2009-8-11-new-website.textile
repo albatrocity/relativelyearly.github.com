@@ -17,3 +17,5 @@ Now that the page was stripped of everything but the blog, we started adding in 
 h2. In all seriousness
 
 We took this opportunity to try out a few technologies that were new to us. This website is built using "Jekyll":http://github.com/mojombo/jekyll/tree and is pushed up to our "GitHub Pages repo":https://github.com/relativelyearly/relativelyearly.github.com/tree. Our branding is the handy work of A. Micah Smith, a.k.a "My Associate Cornelius":http://myassociatecornelius.com. The preferred font for headlines is Rockwell. Those who have Rockwell installed will be greeted with its wonderful slabby goodness. For those who do not and are using a browser that supports the CSS3 _@font-face_ rule, we're using "Kernest":http://kernest.com/ to embed the somewhat similar "Chunk":http://the-league-of-moveable-type.kernest.com/fonts/chunk typeface. Browsers without _@font-face_ support get Courier. I'm sorry. The portfolio tickers use jQuery Tools "Scrollable":http://www.flowplayer.org/tools/scrollable.html.
+
+To celebrate the launch of the new website, we've made it "open source":http://github.com/relativelyearly/relativelyearly.github.com/tree/master. 
