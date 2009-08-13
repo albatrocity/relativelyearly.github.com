@@ -80,12 +80,6 @@
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_includes/header.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
 				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_includes/footer.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
