@@ -191,9 +191,6 @@ div.navi a {
   background: #ccc;  
 }
 
-#main.content {
-  max-width: 900px;
-}
 #main .content.divider {
   background: url(/images/divider.png) repeat-y center 0;   
   max-width: 900px;
@@ -201,7 +198,7 @@ div.navi a {
 .container.fluid, body.fluid #footer {
   min-width: 680px !important;
 }
-#main .content, #header.content {
+#main .content, #header.content, #footer .content {
   margin: 0 auto;  
   max-width: 900px;  
 }
