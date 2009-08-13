@@ -223,10 +223,12 @@ div.navi a {
   padding-left: 30px;   
 }
 
-#posts div.col.left, #footer div.col.left {
+body.fluid #posts div.col.left, body.fluid #footer div.col.left {
   min-width: 60%;
 }
-
+body.page.fluid #footer .col.left {
+  min-width: 47%;
+}
 #posts.content.divider {
   background: url(/images/divider.png) repeat-y 63% 0;     
 }
@@ -303,7 +305,9 @@ br.clear {
 .post h1, .post h2 {
   width: auto;
   display: block;
-  margin-bottom: 0;
+}
+.post h1 {
+  margin-bottom: 0;  
 }
 .portfolio .post h1 {
   text-align: center;  
@@ -321,6 +325,7 @@ br.clear {
   color: #666;  
   font-size: .8em;
 }
+
 #posts div.col.left div.post a img, .person img{
   display: block;
   margin: 0 auto;
@@ -444,7 +449,7 @@ background:#ccc url(../images/hr.png) no-repeat;
 border: none;
 }
 hr.double {
-background: url(../images/hr_double.png) no-repeat;
+background: url(../images/hr_double.png) no-repeat center 0;
 }
 
 #footer a {

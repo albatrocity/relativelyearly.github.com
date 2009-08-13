@@ -4,7 +4,7 @@ title: Services
 ---
 <div class="content divider">
 
-    <div class="container">    
+    <div class="container fluid">    
       <div class="col left">
       
 h2. Design
@@ -23,7 +23,7 @@ h4. Things designed by us
 </div>
 <br class="clear"/>
   </div>
-  <div class="container">
+  <div class="container fluid">
     <div class="col left">
 
 h2. Development
