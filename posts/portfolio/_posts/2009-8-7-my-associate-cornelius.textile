@@ -25,7 +25,7 @@ tags:
       
       <div>
         <a rel="facebox" href="/images/portfolio/myassociatecornelius/full_size/client.jpg">
-          !/images/portfolio/myassociatecornelius/client.png!
+          !/images/portfolio/myassociatecornelius/client.jpg!
         </a>
         <div class="desc">
           <h3>Client Section</h3>
