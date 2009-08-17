@@ -37,8 +37,7 @@ body {
 }
 
 #header img {
-  width:244px;
-  margin: 8px auto 2px auto;
+  margin: 14px auto 2px auto;
 }
 
 /* @group nav */
@@ -59,6 +58,7 @@ ul#nav li a{
   overflow: hidden;
   color: #fff;
   border-bottom:1px solid #1b4b1e;  
+  background: rgb(11, 29, 5);  
   background: rgba(0,0,0,.5);
   -webkit-box-shadow:none;
   -moz-box-shadow:none;  
