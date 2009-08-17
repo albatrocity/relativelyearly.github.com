@@ -198,7 +198,7 @@ div.navi a {
 }
 
 #main .content.divider {
-  background: url(/images/divider.png) repeat-y center 0;   
+  background: url(/images/divider_gray.png) repeat-y center 0;   
   max-width: 900px;
   _width:900px;  
 }
@@ -235,7 +235,7 @@ body.page.fluid #footer .col.left {
   min-width: 47%;
 }
 #posts.content.divider {
-  background: url(/images/divider.png) repeat-y 63% 0;     
+  background: url(/images/divider_gray.png) repeat-y 63% 0;     
 }
 
 #portfolio {
