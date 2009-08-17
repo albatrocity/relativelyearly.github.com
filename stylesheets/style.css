@@ -21,8 +21,8 @@ body {
   padding: 0;
 }
 #sun {
+  position: relative;
   color: #cce3ff;
-  position: absolute;
   width: 330px;
   height: 142px;
   float: left;
@@ -36,8 +36,12 @@ body {
   overflow: hidden;
 }
 
-#header img {
-  margin: 14px auto 2px auto;
+#header img {  	
+  margin: 14px auto 2px 0;
+}
+#header a.plain {
+  position: relative;
+  left: -160px;    
 }
 
 /* @group nav */
