@@ -36,10 +36,12 @@ body {
   overflow: hidden;
 }
 
-#header img {  	
-  margin: 14px auto 2px 0;
-}
-#header a.plain {
+#header a#RED {
+  padding-top: 0;	
+  line-height: 0;
+  padding: 0;
+  display: block;
+  margin: 14px auto -14px 0 !important;	
   position: relative;
   left: -160px;    
 }
