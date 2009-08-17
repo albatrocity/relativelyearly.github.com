@@ -194,16 +194,18 @@ div.navi a {
 #main .content.divider {
   background: url(/images/divider.png) repeat-y center 0;   
   max-width: 900px;
+  _width:900px;  
 }
 .container.fluid, body.fluid #footer {
   min-width: 680px !important;
+
 }
 #main .content, #header.content, #footer .content {
   margin: 0 auto;  
   max-width: 900px;  
 }
 .container {
-  min-width: 900px;	
+  min-width: 900px;	 
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -213,6 +215,7 @@ div.navi a {
 .col {
   padding: 10px 0;
   max-width: 47%;  
+  _width:420px;
 }
 
 .col.right {
@@ -446,6 +449,7 @@ border: none;
 }
 hr.double {
 background: url(../images/hr_double.png) no-repeat center 0;
+border: none;
 }
 
 #footer a {
