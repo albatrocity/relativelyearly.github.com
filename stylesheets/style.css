@@ -432,6 +432,14 @@ a {
 a img {
   border: none;
 }
+
+body.page .col.right a.plain img {
+  -webkit-box-shadow:0 0 10px #000;
+  -moz-box-shadow:0 0 10px #000;  
+  border: 4px solid #fff;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;  
+}
 .button {
   padding: .5em;
   line-height: 4em;
