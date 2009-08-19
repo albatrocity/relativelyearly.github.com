@@ -226,6 +226,7 @@ div.navi a {
 
 .col.right {
   padding-left: 30px;   
+  width: 100%;
 }
 
 body.fluid #posts div.col.left, body.fluid #footer div.col.left {
@@ -350,12 +351,45 @@ h1, h2, h3, h4 {
 #personals div.person div.info h4 {
   color: #666;
 }
-h1 a, h2 a, h3 a, .plain, .scrollable a {
+h1 a, h2 a, h3 a, .plain, .scrollable a, .dsq-widget-comment a {
   color: #000;
   background: none;
   -moz-box-shadow:none;  
   -webkit-box-shadow:none;
   padding: 0;
+}
+.dsq-widget-comment a {
+	font-weight: normal;
+  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+span.dsq-widget-comment {
+	padding: .5em .3em .3em 45px;
+  display: block;
+}
+
+
+li.dsq-widget-item {
+  width:100% ;
+}
+
+p.dsq-widget-meta {
+  display: block;
+  padding: 10px 0 0 45px !important ;
+}
+
+p.dsq-widget-meta {
+  display: block;
+  padding: 10px 0 0 45px !important ;
+}
+
+#dsq-recentcomments {
+  max-width: 420px;
+}
+
+ul.dsq-widget-list {
+  display: block;
+  margin: 0;
 }
 h1 a:hover, h2 a:hover, h3 a:hover, .plain:hover, .scrollable a:hover  {
   background: none;
@@ -431,6 +465,10 @@ a {
 }
 a img {
   border: none;
+}
+
+img.dsq-widget-avatar {
+  padding-right: 10px !important;
 }
 
 body.page .col.right a.plain img {
