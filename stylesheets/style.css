@@ -378,6 +378,15 @@ p.dsq-widget-meta {
   padding: 10px 0 0 45px !important ;
 }
 
+#dsq-post-add {
+  border-bottom: 2px groove #eee;
+}
+
+#dsq-options {
+  display: none;
+}
+
+
 p.dsq-widget-meta {
   display: block;
   padding: 10px 0 0 45px !important ;
