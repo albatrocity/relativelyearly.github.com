@@ -1,0 +1,15 @@
+---
+layout: post
+title: Operator - Rails Rumble 09
+excerpt: "We once again participated in Rails Rumble, the annual 48-hour Ruby on Rails development contest. The fruits of our near-sleepless labor is "Operator":http://operatorapp.com, a multi-user phone forwarding and voicemail service."
+---
+
+We once again participated in Rails Rumble, the annual 48-hour Ruby on Rails development contest. The fruits of our near-sleepless labor is "Operator":http://operatorapp.com, a multi-user phone forwarding and voicemail service.
+
+h2. Cake
+
+The idea grew from our personal need for one phone number to route to both of our phones. We wanted to be able to schedule times when calls would be routed to either phone. On top of that we thought it was necessary to have a central voicemail box. If no one answers a phone call or no one is scheduled to be on call, the call is directed to voicemail.
+
+h2. Icing
+
+The voicemail messages are sent to Operator and transcribed to readable, editable, searchable text. Inline audio players allow you to listen to the message, or you can listen to all visible messages via the answering machine at the top of each page.

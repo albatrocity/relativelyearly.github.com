@@ -86,7 +86,7 @@
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/posts/blog/_posts/2009-8-11-new-website.textile</string>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/posts/blog/_posts/2009-8-21-rr-09.textile</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
@@ -105,6 +105,12 @@
 			<dict>
 				<key>DocumentURL</key>
 				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/page.html</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/posts/blog/_posts/2009-8-24-rails-rumble-09.textile</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
