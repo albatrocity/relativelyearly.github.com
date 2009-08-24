@@ -16,7 +16,7 @@ h2. Design
 
 h4. Things designed by us
 
-"RedLists":/portfolio/redlists.html "Correspondence":/portfolio/correspondence.html "Ross Brown":http://rossisbrown.com <br/>"Relatively Early Development":http://relativelyearly.com
+"RedLists":/portfolio/redlists.html "Correspondence":/portfolio/correspondence.html "Ross Brown":http://rossisbrown.com
 
 <img src="/images/column_stretch.png" alt="Fooled you!"/>
 
@@ -36,7 +36,7 @@ h2. Development
     
 h4. Things developed by us
 
-"RedLists":/portfolio/redlists.html "zappn":/portfolio/zappn.html "My Associate Cornelius":/portfolio/my-associate-cornelius.html "ABCreative":http://abcreative.net "Heartland Missions":/portfolio/heartland.html "Relatively Early Development":http://relativelyearly.com
+"RedLists":/portfolio/redlists.html "Heartland Missions":/portfolio/heartland.html "zappn":/portfolio/zappn.html "My Associate Cornelius":/portfolio/my-associate-cornelius.html "ABCreative":http://abcreative.net
     </div>
   
   <br class="clear"/>
