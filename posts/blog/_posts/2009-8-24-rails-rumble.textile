@@ -19,3 +19,23 @@ h2. Icing
 The voicemail messages are sent to Operator and transcribed to readable, editable, searchable text. Inline audio players allow you to listen to the message, or you can listen to all visible messages via the answering machine at the top of each page.
 
 !http://s3.amazonaws.com/ember/igAYJ9lpJjDk5ha489ELVOvkKoenEGJI_m.jpg!
+
+h2. Post-mortem
+
+This is our second year participating in the Rails Rumble.  We learned some lessons last year that made our experience much better.  There were some other things that we stumbled upon this year that also helped out.
+
+h4. Plan up front
+
+During last year's competition, we had to take some time to go over our vision for the app because we were both envisioning different things.  This year, we spent some time the week before drawing out wireframes and planning features.  Our weekend went much more smoothly since we knew what needed to be done.
+
+h4. Clear out your schedule
+
+Last year, both of us had commitments over the weekend.  This took time away from building our application.  This year we could spend as much time as necessary to make it as perfect as possible.
+
+h4. Finish early
+
+Plan to have your application finished two hours in advance.  Then you can spend the rest of the time looking for bugs.  We had a few big bugs left in last years application; we caught several before our final submission this year.
+
+h4. Work with others
+
+All of the Kansas City teams (at least all that we knew about) worked out of ECJC over the weekend.  This provided several benefits: fewer distractions (everyone present is working on something), motivation, and the ability to bounce problems off of each other.
