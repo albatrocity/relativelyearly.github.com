@@ -14,9 +14,6 @@
 		<array>
 			<dict>
 				<key>DocumentURL</key>
-<<<<<<< HEAD
-				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/posts/blog/_posts/2009-8-24-rails-rumble-09.textile</string>
-=======
 				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/services.textile</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
@@ -108,7 +105,6 @@
 			<dict>
 				<key>DocumentURL</key>
 				<string>file://localhost/Users/ross/Sites/Freelance/RED/relatively_early/_layouts/page.html</string>
->>>>>>> 1bfd4ed... Added favicon. Began RR09 post.
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
