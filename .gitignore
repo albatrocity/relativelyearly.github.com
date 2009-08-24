@@ -1,4 +1,4 @@
 _site/*
 .DS_Store
-relatively_early.esproj
-relatively_early.esproj/*
+*.esproj
+*.esproj/*
