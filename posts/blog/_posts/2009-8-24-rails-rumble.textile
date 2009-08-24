@@ -14,11 +14,19 @@ The idea grew from our personal need for one phone number to route to both of ou
 
 !http://s3.amazonaws.com/ember/zh8kmFIvthcT2BCPWIx6A07WSrwVB1Dd_m.jpg!
 
+Calls needed to be able to have comments, so we could keep track of what we had followed up on or any other information associated with them.
+
 h2. Icing
 
 The voicemail messages are sent to Operator and transcribed to readable, editable, searchable text. Inline audio players allow you to listen to the message, or you can listen to all visible messages via the answering machine at the top of each page.
 
 !http://s3.amazonaws.com/ember/igAYJ9lpJjDk5ha489ELVOvkKoenEGJI_m.jpg!
+
+We also included drag-and-drop tagging and responsibility assignment. The search feature allows for some handy sorting, and you can save a search as a filter for one-click access to it later.
+
+Due to the nature of the contest, we had to present Operator in a limited way. Visitors have anonymous guest access to post comments, make tags, assign responsibilities, and edit transcriptions. Since the on-call scheduler actually works, guests can view the schedule page but not actually save the changes. We'd rather not receive a bunch of test calls this week. We also thought it was important to mask the incoming phone numbers in order to respect the privacy of anyone wanting to test calls out.
+
+In the future, we plan to implement a sign up process, adding team members, acquiring a phone number, and all that important mumbo jumbo. For now you can consider it the internet's finest prank message repository, or a chance to anonymously spill the beans.
 
 h2. Post-mortem
 
