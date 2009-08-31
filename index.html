@@ -8,24 +8,24 @@ title: Relatively Early Development
     <p>Relatively Early is a web development consultancy based in Kansas City specializing in Ruby on Rails. We'd like to work with you to make your ideas come to life.</p>
     <p>Have a gander at our <a href="/services.html">services</a> to find out what we can do for you.</p>
   </div>
-  
+
   <div class="col right">
     {% for post in site.categories.blog limit:1 %}
     <div class="post">
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <cite>Posted on {{ post.date | date_to_long_string }}.</cite>  
+      <cite>Posted on {{ post.date | date_to_long_string }}.</cite>
       <p>{{ post.excerpt }}</p>
       <a class="button" href="{{ post.url }}">read more</a>
       <br class="clear"/>
     </div>
     {% endfor %}
   </div>
-  <hr class="double"/>  
- </div>  
-  
+  <hr class="double"/>
+ </div>
+
 <div class="container">
-  <div class="col left"> 
-    <h1>Personnel</h1> 
+  <div class="col left">
+    <h1>Personnel</h1>
     <div id="personals">
     <div class="person">
       <img src="/images/matt.jpg" alt="Matt Pruitt" />
@@ -36,10 +36,11 @@ title: Relatively Early Development
           <li>
             <a title="Twitter" href="http://twitter.com/guitsaru"><img class="nob" src="/images/twitter.png" alt="Twitter" />@guitsaru</a></li>
           <li><a title="Blog" href="http://guitsaru.com"><img class="nob" src="/images/blog.png" alt="Blog" />guitsaru.com</a></li>
-          <li><a title="GitHub" href="http://github.com/guitsaru"><img class="nob" src="/images/github.png" alt="Github"/>guitsaru</a></li>    
+          <li><a title="GitHub" href="http://github.com/guitsaru"><img class="nob" src="/images/github.png" alt="Github"/>guitsaru</a></li>
+          <li><a title="Working With Rails" href="http://www.workingwithrails.com/person/11206-matt-pruitt"><img class="nob" src="/images/wwr.png" alt="Working With Rails"/>Matt Pruitt</a></li>
         </ul>
-      </div>  
-      <br class="clear"/>  
+      </div>
+      <br class="clear"/>
     </div>
     <div class="person">
       <img src="/images/ross.jpg" alt="Ross Brown" />
@@ -48,11 +49,12 @@ title: Relatively Early Development
         <h4>Founder/Developer</h4>
         <ul>
           <li><a title="Twitter" href="http://twitter.com/albatrocity"><img class="nob" src="/images/twitter.png" alt="Twitter" />@albatrocity</a></li>
-          <li><a title="Blog" href="http://rossisbrown.com"><img class="nob" src="/images/blog.png" alt="Blog" />rossisbrown.com</a></li>    
-          <li><a title="GitHub" href="http://github.com/albatrocity"><img class="nob" src="/images/github.png" alt="Blog" />albatrocity</a></li>    
-        </ul>  
-      </div>  
-      <br class="clear"/>  
+          <li><a title="Blog" href="http://rossisbrown.com"><img class="nob" src="/images/blog.png" alt="Blog" />rossisbrown.com</a></li>
+          <li><a title="GitHub" href="http://github.com/albatrocity"><img class="nob" src="/images/github.png" alt="Blog" />albatrocity</a></li>
+          <li><a title="Working With Rails" href="http://www.workingwithrails.com/person/16302-ross-brown"><img class="nob" src="/images/wwr.png" alt="Working With Rails"/>Ross Brown</a></li>
+        </ul>
+      </div>
+      <br class="clear"/>
     </div>
   </div>
 </div>
@@ -69,15 +71,15 @@ title: Relatively Early Development
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       </div>
     </div>
-    {% endfor %}    
+    {% endfor %}
   </div>
 </div>
   <a class="prev">&larr;</a>
-  <a class="next">&rarr;</a>  
+  <a class="next">&rarr;</a>
   <div class="navi"></div>
  <br class="clear"/>
-  <a class="button" href="portfolio.html">view all</a>  
-<br class="clear"/>  
+  <a class="button" href="portfolio.html">view all</a>
+<br class="clear"/>
 </div>
 <br class="clear"/>
 </div>
