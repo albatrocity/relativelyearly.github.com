@@ -10,6 +10,10 @@ title: Services
 h2. Design
     
 *Custom website and web application design*. Visual impact and user interfacing is an extremely important part of your online identity.    
+
+* Web/Visual/Interface Design
+* User Experience/Usability
+* Custom WordPress/Other CMS templates
 </div>
 
 <div class="col right">
@@ -29,6 +33,12 @@ h4. Things designed by us
 h2. Development
 
 *Custom website and web application development in Ruby on Rails and jQuery*. Whatever your needs may be, we'll work with you to meet them.      
+
+
+* Custom development from the ground up
+* Transforming a concept design into valid XHTML/CSS
+* API Integration/Development
+* Code Review/Audits
 
     </div>
   
