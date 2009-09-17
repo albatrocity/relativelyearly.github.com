@@ -4,7 +4,7 @@ title: Relatively Early Development
 ---
 <div class="container">
   <div class="col left">
-    <h1>Hello</h1>
+    <h2>Batter UP</h2>
     <p>Relatively Early is a web development consultancy based in Kansas City specializing in Ruby on Rails. We'd like to work with you to make your ideas come to life.</p>
     <p>Have a gander at our <a href="/services.html">services</a> to find out what we can do for you. Then 
       <script type="text/javascript">
@@ -42,7 +42,7 @@ title: Relatively Early Development
   <div class="col right">
     {% for post in site.categories.blog limit:1 %}
     <div class="post">
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <cite>Posted on {{ post.date | date_to_long_string }}.</cite>
       <p>{{ post.excerpt }}</p>
       <a class="button" href="{{ post.url }}">read more</a>
@@ -55,7 +55,7 @@ title: Relatively Early Development
 
 <div class="container">
   <div class="col left">
-    <h1>Personnel</h1>
+    <h1>Roster</h1>
     <div id="personals">
     <div class="person">
       <img src="/images/matt.jpg" alt="Matt Pruitt" />
@@ -91,7 +91,7 @@ title: Relatively Early Development
 
 <div class="col right" id="portfolio">
 
-  <h1><a href="/portfolio.html">Portfolio</a></h1>
+  <h1><a href="/portfolio.html">Hall of Fame</a></h1>
 <div class="scrollable">
   <div class="items">
     {% for post in site.categories.portfolio limit:5 %}
@@ -107,8 +107,7 @@ title: Relatively Early Development
   <a class="prev">&larr;</a>
   <a class="next">&rarr;</a>
   <div class="navi"></div>
- <br class="clear"/>
-  <a class="button" href="portfolio.html">view all</a>
+  <a class="button" id="all-port" href="portfolio.html">view all</a>
 <br class="clear"/>
 </div>
 <br class="clear"/>

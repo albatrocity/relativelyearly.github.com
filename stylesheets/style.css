@@ -10,7 +10,7 @@ body, html {
   width: 100%;
 }
 body {
-  background: #222 url(/images/grass.png) repeat-x 51% 142px;
+  background: #222 url(/images/grass2.png) repeat-x 51% 142px;
   font: 14px/1.5em "Lucida Grande", Lucida, Verdana, sans-serif;
   color: #000;
   height: 100%;
@@ -165,12 +165,24 @@ div.scrollable div.items div.active {
   margin: 10px 0;
 }
 div.navi a {
-  padding: 2px 10px;
-  display: inline;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  padding: 0;
   margin:0 5px;
 }
 .next {
   float: right;
+  margin-right: 20px;
+}
+#all-port {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  height: 1em;
+  width: 5em;
+  line-height: 1em;
+  border-bottom: 1px solid #ccc;
 }
 .prev {
   float: left;
@@ -195,6 +207,7 @@ div.navi a {
   border-top: 2px solid #fff;
   height: 100%;
   background: #ccc;  
+  padding-bottom: 60px;
 }
 
 #main .content.divider {
@@ -208,15 +221,20 @@ div.navi a {
 }
 #main .content, #header.content, #footer .content {
   margin: 0 auto;  
-  max-width: 900px;  
+  max-width: 900px; 
+  position: relative;
 }
 .container {
   min-width: 900px;	 
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
+  z-index: 0;
 }
 .container .content .container {
   padding: 0;
+  position: relative;
+  z-index: 100;
 }
 .col {
   padding: 10px 0;
@@ -233,7 +251,12 @@ body.fluid #posts div.col.left, body.fluid #footer div.col.left {
   min-width: 60%;
 }
 body.page.fluid #footer .col.left {
-  min-width: 47%;
+  min-width: 50%;
+}
+
+body.page.fluid #footer .col.left{
+  min-width: 20%;	
+  max-width: 38%;
 }
 #posts.content.divider {
   background: url(/images/divider_gray.png) repeat-y 63% 0;     
@@ -243,11 +266,20 @@ body.page.fluid #footer .col.left {
   overflow: hidden;
 }
 #footer {
+  position: relative;
+  z-index: 0;
   padding-top: 20px;
   padding-bottom: 20px;
   background: #222;
   max-width: 100%;
   border-top: 1px solid #777;
+}
+#footer.container .content {
+  position: relative;	
+  z-index: 0 !important;
+}
+#footer .col.right {
+  max-width: 38%;
 }
 #footer * {
   color: #ddd;
@@ -261,7 +293,7 @@ body.fluid #footer .col.right{
 }
 
 body.page #footer .col.left {
-  max-width: 47%;
+  max-width: 40%;
 }
 
 body.fluid .col.right {
@@ -269,6 +301,16 @@ body.fluid .col.right {
 }
 body.page.fluid .col.right {
   max-width: 47% !important;
+}
+body.page.fluid #footer .col.right {
+  max-width: 36% !important;
+}
+img#base {
+  position: relative;
+  z-index: 1;
+  width: 250px;
+  display: block;
+  margin: -130px auto -70px;
 }
 /* @end */
 
@@ -445,6 +487,7 @@ h4 {
   margin: 0;
 }
 .person ul li {
+  text-align: left;
   list-style: none;
   padding: 0 0 0 8px;
   margin: 5px 0;
@@ -506,10 +549,12 @@ hr {
   clear: both;
 background:#ccc url(../images/hr.png) no-repeat;
 border: none;
+outline: none;
 }
 hr.double {
 background: url(../images/hr_double.png) no-repeat center 0;
 border: none;
+outline: none;
 }
 
 #footer a {
