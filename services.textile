@@ -4,50 +4,60 @@ title: Services
 ---
 <div class="content divider">
 
-    <div class="container fluid">    
+    <div class="container fluid">
       <div class="col left">
-      
-h2. Design
-    
-*Custom website and web application design*. Visual impact and user interfacing is an extremely important part of your online identity.    
 
-* Web/Visual/Interface Design
-* User Experience/Usability
-* Custom WordPress/Other CMS templates
-</div>
+h2. Spring Training <img src="/images/shoe.png" alt="Spring Training"/>
 
-<div class="col right">
+A one-week planning and research period to thoroughly map out your ideas and get them on track for a functioning application. A planning period will determine the following:
 
-h4. Things designed by us
+* *Usage Scenarios* What should happen during every step of interaction?
+* *Monetization Strategies* How will you make money?
+* *Market Research* What sets you apart?
+* *Hosting Options* Where are you going to put this thing?
+* *Interface Planning* How will your users interact?
+* *Design Evaluation* Does it effectively communicate what you want it to?
 
-"RedLists":/portfolio/redlists.html "Correspondence":/portfolio/correspondence.html "Ross Brown":http://rossisbrown.com <br/>"Relatively Early Development":http://relativelyearly.com
+        </div>
+        <div class="col right">
+          
+h2. Extra Innings <img src="/images/scoreboard.png" alt="Extra Innings"/>
 
-<img src="/images/column_stretch.png" alt="Fooled you!"/>
-
-</div>
-<br class="clear"/>
-  </div>
-  <div class="container fluid">
-    <div class="col left">
-
-h2. Development
-
-*Custom website and web application development in Ruby on Rails and jQuery*. Whatever your needs may be, we'll work with you to meet them.      
-
+On-going or short term feature development.
 
 * Custom development from the ground up
 * Transforming a concept design into valid XHTML/CSS
 * API Integration/Development
 * Code Review/Audits
 
-    </div>
-  
-    <div class="col right">  
-    
-h4. Things developed by us
+        </div>
+        <br class="clear"/>
+          </div>
+      <div class="col left">
 
-"RedLists":/portfolio/redlists.html "zappn":/portfolio/zappn.html "My Associate Cornelius":/portfolio/my-associate-cornelius.html "ABCreative":http://abcreative.net "Heartland Missions":/portfolio/heartland.html "Relatively Early Development":http://relativelyearly.com
-    </div>
-  
-  <br class="clear"/>
-</div>  
+h2. Opening Day <img src="/images/field.png" alt="Opening Day"/>
+
+A two week working period that produces a fully-functional beta of your application. Spring Training is required. Includes support and bugfixes for the following month.
+      </div>
+      <div class="col right">
+
+h2. Cleanup Hitter <img src="/images/bat.png" alt="Cleanup Hitter"/>
+
+A recovery service to salvage an existing project.
+      </div>
+      <br class="clear"/>
+      <div class="col left">
+
+h2. Design <img src="/images/glove.png" alt="Design"/>
+
+*Custom website and web application design*. Visual impact and user interfacing is an extremely important part of your online identity.
+
+</div>
+
+<div class="col right">
+  * Web/Visual/Interface Design
+  * User Experience/Usability
+  * Custom WordPress/Other CMS templates
+</div>
+<br class="clear"/>
+  </div>

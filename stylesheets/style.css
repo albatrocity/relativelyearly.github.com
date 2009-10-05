@@ -312,6 +312,10 @@ img#base {
   display: block;
   margin: -130px auto -70px;
 }
+.page.fluid .col.right ul {
+  margin-top: 3.1em;
+  padding-left: 1.4em;
+}
 /* @end */
 
 /* @group framework */
@@ -467,6 +471,12 @@ h3 {
 h4 {
   font-size: 1em;
   margin: 0;
+}
+h2 img {
+  vertical-align: middle;
+  margin: 0 0 -10px 10px;
+  position: relative;
+  top: -10px;
 }
 .person h2 {
   margin: 0;
