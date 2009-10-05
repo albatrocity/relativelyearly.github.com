@@ -9,7 +9,7 @@ title: Services
 
 h2. Spring Training <img src="/images/shoe.png" alt="Spring Training"/>
 
-A one-week planning and research period to thoroughly map out your ideas and get them on track for a functioning application. A planning period will determine the following:
+*A one-week planning and research period* to thoroughly map out your ideas and get them ready for a functioning application. A planning period will determine the following:
 
 * *Usage Scenarios* What should happen during every step of interaction?
 * *Monetization Strategies* How will you make money?
@@ -23,9 +23,9 @@ A one-week planning and research period to thoroughly map out your ideas and get
           
 h2. Extra Innings <img src="/images/scoreboard.png" alt="Extra Innings"/>
 
-On-going or short term feature development.
+*On-going or short term development* of a new or existing project. Extra Innings are intended to provide the missing pieces, including but not limited to:
 
-* Custom development from the ground up
+* Ruby on Rails feature development and implementation
 * Transforming a concept design into valid XHTML/CSS
 * API Integration/Development
 * Code Review/Audits
@@ -34,30 +34,71 @@ On-going or short term feature development.
         <br class="clear"/>
           </div>
       <div class="col left">
-
+        
 h2. Opening Day <img src="/images/field.png" alt="Opening Day"/>
 
-A two week working period that produces a fully-functional beta of your application. Spring Training is required. Includes support and bugfixes for the following month.
-      </div>
-      <div class="col right">
+*A two week working period that produces a fully-functional beta* of your application. Spring Training is required for an Opening Day product launch. Includes support and bugfixes for the following month.
 
-h2. Cleanup Hitter <img src="/images/bat.png" alt="Cleanup Hitter"/>
-
-A recovery service to salvage an existing project.
-      </div>
-      <br class="clear"/>
-      <div class="col left">
+        </div>        
+        <div class="col right">
 
 h2. Design <img src="/images/glove.png" alt="Design"/>
 
 *Custom website and web application design*. Visual impact and user interfacing is an extremely important part of your online identity.
 
-</div>
+* Web/Visual Interface Design
+* User Experience/Usability development and consulting
+* Custom WordPress/Other CMS templates
+        </div>
+        <br class="clear"/>
+
+      <div class="col left">
+
+h2. Cleanup Hitter <img src="/images/bat.png" alt="Cleanup Hitter"/>
+
+A recovery service to salvage an existing project. Hire a cleanup hitter if you're in a pickle with your current code.
+
+  </div>
 
 <div class="col right">
-  * Web/Visual/Interface Design
-  * User Experience/Usability
-  * Custom WordPress/Other CMS templates
+
+h2. Not sure what your game plan is? 
+
+<script type="text/javascript">
+//<![CDATA[
+
+function hiveware_enkoder(){var i,j,x,y,x=
+"x=\"783d223738336432323332353632393738336436343336333533323563323233363334" +
+"33363633333233353333363633363333333733323333333033343335333636343336333333" +
+"36363633363335333636353337333133363333333633343332363533373338333233313335" +
+"33373337333233363633333233323333333933373334333636353335333333363335333233" +
+"38333233383336333133373332333336333336333233363335333233313332333033363330" +
+"33373333333633383337333233363636333636343336333533363336333333353332333033" +
+"36363433353633333233393336363533363332333636343336333633363636333733313336" +
+"33393336333233363634333636333337333433363331333733343336363633333631333633" +
+"39333636363336333933363635333636353333363333323336333636363334363633363331" +
+"33333330333733323336363533323332333233353336363333363339333336323333333133" +
+"37333433363330333336323563323233393337333633363362373933643237333533363633" +
+"33373237336236363666333933363335333637323238363933643331333733323336333033" +
+"62363933633633333733393332373832653663363536353336333333363665363737343638" +
+"36363336363433333362363932623364363633373333333733323239376237393335333633" +
+"32333632623364373536653631333633353336363537333633363133333337333433333730" +
+"36353238323736343334333533373235323732623738333833363333333732653733373536" +
+"32333533373333333637333734373232383335333233353333363932633332323933323333" +
+"33303336323933623764373932323362366133643635373636313663323837383265363336" +
+"38363137323431373432383330323932393362373833643738326537333735363237333734" +
+"37323238333132393362373933643237323733623636366637323238363933643330336236" +
+"39336337383265366336353665363737343638336236393262336433383239376237393262" +
+"33643738326537333735363237333734373232383639326333343239336237643636366637" +
+"32323836393364333433623639336337383265366336353665363737343638336236393262" +
+"33643338323937623739326233643738326537333735363237333734373232383639326333" +
+"3432393362376437393364373932653733373536323733373437323238366132393362223b" +
+"793d27273b666f7228693d303b693c782e6c656e6774683b692b3d32297b792b3d756e6573" +
+"63617065282725272b782e73756273747228692c3229293b7d79\";y='';for(i=0;i<x.le" +
+"ngth;i+=2){y+=unescape('%'+x.substr(i,2));}y";
+while(x=eval(x));}hiveware_enkoder();
+
+//]]>
+</script> &nbsp; with us about what you're looking to do and we'll get you swinging in no time.
+
 </div>
-<br class="clear"/>
-  </div>

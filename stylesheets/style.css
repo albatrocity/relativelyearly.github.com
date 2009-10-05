@@ -11,7 +11,7 @@ body, html {
 }
 body {
   background: #222 url(/images/grass2.png) repeat-x 51% 142px;
-  font: 14px/1.5em "Lucida Grande", Lucida, Verdana, sans-serif;
+  font: 12px/1.5em "Lucida Grande", Lucida, Verdana, sans-serif;
   color: #000;
   height: 100%;
 }
@@ -41,7 +41,7 @@ body {
   line-height: 0;
   padding: 0;
   display: block;
-  margin: 14px auto -14px 0 !important;	
+  margin: 10px auto -14px 0 !important;	
   position: relative;
   left: -160px;    
 }
@@ -49,6 +49,7 @@ body {
 /* @group nav */
 
 ul#nav {
+  font-size: 14px;	
   list-style: none;
   padding: 0;
   width: 460px;
@@ -69,6 +70,7 @@ ul#nav li a{
   -webkit-box-shadow:none;
   -moz-box-shadow:none;  
   -webkit-transition: background-color .3s linear;  
+  padding: .3em;
 }
 ul#nav li a:hover, ul#nav li a.active{
   top: 0;
@@ -207,7 +209,7 @@ div.navi a {
   border-top: 2px solid #fff;
   height: 100%;
   background: #ccc;  
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 #main .content.divider {
@@ -240,6 +242,8 @@ div.navi a {
   padding: 10px 0;
   max-width: 47%;  
   _width:420px;
+  position: relative;
+  z-index: 2 !important;
 }
 
 .col.right {
@@ -307,13 +311,12 @@ body.page.fluid #footer .col.right {
 }
 img#base {
   position: relative;
-  z-index: 1;
+  z-index: 0;
   width: 250px;
   display: block;
   margin: -130px auto -70px;
 }
-.page.fluid .col.right ul {
-  margin-top: 3.1em;
+.col ul {
   padding-left: 1.4em;
 }
 /* @end */
@@ -567,14 +570,16 @@ border: none;
 outline: none;
 }
 
-#footer a {
+#footer a{
   background: #111;
 }
+
 #footer ul {
   padding: 0 0 0 2em;
 }
 #footer li {
   list-style: none;
+  margin-bottom: .5em;
 }
 #footer li img {
   vertical-align: middle;
@@ -582,6 +587,9 @@ outline: none;
 #footer a:hover {
   background: #000;
   border-bottom: 1px solid #444;
+}
+#footer li span {
+  margin-left: 5px;
 }
 #footer small {
   color: #666;
