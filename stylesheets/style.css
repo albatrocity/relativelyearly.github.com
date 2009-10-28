@@ -244,7 +244,7 @@ div.navi a {
   margin: 0 auto;
   border-top: 2px solid #fff;
   height: 100%;
-  background: #ccc;  
+  background: #ccc url(/images/texture_bg.png);  
   padding-bottom: 60px;
 }
 body.fluid #main {
@@ -254,7 +254,7 @@ body.page.fluid #main{
   padding-bottom: 60px;
 }
 #main .content.divider {
-  background: url(/images/divider_gray.png) repeat-y center 0;   
+  background: url(/images/divider.png) repeat-y center 0;   
   max-width: 900px;
   _width:900px;  
 }
@@ -305,7 +305,7 @@ body.page.fluid #footer .col.left{
   max-width: 38%;
 }
 #posts.content.divider {
-  background: url(/images/divider_gray.png) repeat-y 63% 0;     
+  background: url(/images/divider.png) repeat-y 63% 0;     
 }
 
 #portfolio {
