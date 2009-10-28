@@ -103,8 +103,8 @@ ul#nav li a:hover, ul#nav li a.active{
   margin: 0 auto;
 }
 div.scrollable {
-	margin-top: 20px;
 	position:relative;
+	margin-bottom: 40px;
 	overflow:hidden;	 	
 	width: 400px;	
 	height:340px;	
@@ -114,14 +114,13 @@ div.scrollable {
 	border-left: 1px solid #aaa;
 	border-right: 1px solid #aaa;
 	-webkit-box-shadow: 0 0 5px #fff;
-	-moz-box-shadow: 0 0 5px #fff;			
+	-moz-box-shadow: 0 0 5px #fff;
 }
-
 div.scrollable div.items {	
 	/* this cannot be too large */
 	width:20000em;	
 	position:absolute;
-	clear:both;		
+	clear:both;	
 }
 
 /* single scrollable item */
@@ -154,10 +153,41 @@ div.scrollable div.items div.active {
   padding-top: 20px; 
   height: 100px;
 }
+
+#frame {
+  width: 355px;
+  padding:28px 22px;
+  background: url(/images/frame.png) no-repeat;
+  overflow: hidden;
+}
+h1 img {
+  vertical-align: text-bottom;
+}
+#frame .navi, #frame .next, #frame .prev {
+  margin: 0 auto 10px auto;
+}
 .navi, .next, .prev {
   margin: 10px auto;
   position: relative;
 }
+#frame div.scrollable div.items div a {
+  height: 235px;
+}
+#frame div.scrollable div.items div {
+  width: 355px;
+}
+#frame div.scrollable div.items div a img {
+  width: 355px;
+}
+
+#frame .scrollable {
+  width: 355px;
+  height: 296px;
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none; 
+  border: navajowhite; 
+}
+
 .navi {
   width: 200px;
   text-align: center;
@@ -209,7 +239,7 @@ div.navi a {
   border-top: 2px solid #fff;
   height: 100%;
   background: #ccc;  
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
 
 #main .content.divider {
@@ -312,12 +342,14 @@ body.page.fluid .col.right {
 body.page.fluid #footer .col.right {
   max-width: 36% !important;
 }
-img#base {
-  position: relative;
+div#base {
+  position: absolute;
   z-index: 0;
-  width: 250px;
+  width: 96%;
+  text-align: center;
   display: block;
-  margin: -130px auto -70px;
+  margin-top: -130px;
+  margin-bottom: -70px;
 }
 .col ul {
   padding-left: 1.4em;

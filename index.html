@@ -55,7 +55,7 @@ title: Relatively Early Development
 
 <div class="container">
   <div class="col left">
-    <h1>Roster</h1>
+    <h1>Roster <img src="/images/roster.png" alt="Roster"/></h1>
     <div id="personals">
     <div class="person">
       <img src="/images/matt.jpg" alt="Matt Pruitt" />
@@ -91,24 +91,27 @@ title: Relatively Early Development
 
 <div class="col right" id="portfolio">
 
-  <h1><a href="/portfolio.html">Hall of Fame</a></h1>
-<div class="scrollable">
-  <div class="items">
-    {% for post in site.categories.portfolio limit:5 %}
-    <div>
-    <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}"/></a>
-      <div class="desc">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <h1><a href="/portfolio.html">Hall of Fame</a> <img src="/images/star.png" alt="Hall of Fame"/></h1>
+<div id="frame">
+  <div class="scrollable">
+    <div class="items">
+      {% for post in site.categories.portfolio limit:5 %}
+      <div>
+      <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}"/></a>
+        <div class="desc">
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        </div>
       </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
+    <a class="prev">&larr;</a>
+    <a class="next">&rarr;</a>
+    <div class="navi"></div>
+    <a class="button" id="all-port" href="portfolio.html">view all</a>
+  <br class="clear"/>  
 </div>
-  <a class="prev">&larr;</a>
-  <a class="next">&rarr;</a>
-  <div class="navi"></div>
-  <a class="button" id="all-port" href="portfolio.html">view all</a>
-<br class="clear"/>
+
 </div>
 <br class="clear"/>
 </div>
