@@ -163,6 +163,12 @@ div.scrollable div.items div.active {
 h1 img {
   vertical-align: text-bottom;
 }
+small img {
+  vertical-align: middle;
+  position: relative;
+  top: -4px;
+  margin-right: 10px;
+}
 #frame .navi, #frame .next, #frame .prev {
   margin: 0 auto 10px auto;
 }
@@ -323,7 +329,9 @@ body.page.fluid #footer .col.left{
 }
 #footer p {
   color: #999;
-
+}
+img#logo {
+  float: right;
 }
 body.fluid #footer .col.right{
   max-width: 34%;  
@@ -627,7 +635,7 @@ outline: none;
   margin-left: 5px;
 }
 #footer small {
-  color: #666;
+  color: #444;
 }
 /* @end */
 
