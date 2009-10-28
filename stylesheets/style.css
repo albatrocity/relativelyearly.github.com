@@ -16,7 +16,7 @@ body {
   height: 100%;
 }
 #sky {
-  background: url(/images/sky_bg.png) repeat-x 14px 0;
+  background: url(/images/big_sky_bg.jpg) repeat-x 14px 0;
   overflow: hidden;
   padding: 0;
 }
@@ -26,7 +26,7 @@ body {
   width: 330px;
   height: 142px;
   float: left;
-  background: url(../images/sun.png) no-repeat left;
+  background: url(../images/sun_trans.png) no-repeat left 2px;
 }
 #header {
   padding: 0;
@@ -156,7 +156,7 @@ div.scrollable div.items div.active {
 
 #frame {
   width: 355px;
-  padding:28px 22px;
+  padding:28px 28px 0 22px;
   background: url(/images/frame.png) no-repeat;
   overflow: hidden;
 }
@@ -247,7 +247,12 @@ div.navi a {
   background: #ccc;  
   padding-bottom: 60px;
 }
-
+body.fluid #main {
+  padding-bottom: 0;
+}
+body.page.fluid #main{
+  padding-bottom: 60px;
+}
 #main .content.divider {
   background: url(/images/divider_gray.png) repeat-y center 0;   
   max-width: 900px;
@@ -290,9 +295,7 @@ div.navi a {
 body.fluid #posts div.col.left{
   min-width: 60%;
 }
-body.fluid #footer .col.left {
-  max-width: 38%;
-}
+
 body.page.fluid #footer .col.left {
   min-width: 50%;
 }
@@ -334,9 +337,11 @@ img#logo {
   float: right;
 }
 body.fluid #footer .col.right{
-  max-width: 34%;  
+  max-width: 34%;
 }
-
+body.fluid #footer .col.left{
+  max-width: 55%;  
+}
 body.page #footer .col.left {
   max-width: 40%;
 }
@@ -358,6 +363,12 @@ div#base {
   display: block;
   margin-top: -130px;
   margin-bottom: -70px;
+}
+body.page.fluid #base{
+  display: block;
+}
+body.fluid #base {
+  display: none;
 }
 .col ul {
   padding-left: 1.4em;
