@@ -251,8 +251,11 @@ div.navi a {
   width: 100%;
 }
 
-body.fluid #posts div.col.left, body.fluid #footer div.col.left {
+body.fluid #posts div.col.left{
   min-width: 60%;
+}
+body.fluid #footer .col.left {
+  max-width: 38%;
 }
 body.page.fluid #footer .col.left {
   min-width: 50%;
