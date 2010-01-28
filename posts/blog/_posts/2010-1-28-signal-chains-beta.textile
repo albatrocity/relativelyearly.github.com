@@ -1,0 +1,59 @@
+---
+layout: post
+title: Signal Chains Beta
+excerpt: "Signal Chains is essentially a way for audio engineers to share their signal flows through audio samples, documenting each piece and process involved. It does this by providing a somewhat standardized method of doing so."
+---
+
+Relatively Early has been working on Signal Chains for a few months, and are finally somewhat ready for the public to see it.
+
+*The Problem:* Audio gear is expensive. Few brick and mortar stores carry expensive audio gear and will let you get your grubby little hands all over it before purchasing. Conversely, when people post audio samples online, you're not always sure what is involved. Is it really that mic that sounds that way? Or is the preamp they're using coloring the sound?
+
+*The Solution:* Signal Chains is essentially a way for audio engineers (or those who call themselves audio engineers) to share their signal flows through audio samples, documenting each piece and process involved. It does this by providing a somewhat standardized method of doing so.
+
+h4. The Pieces
+
+h5. Gear
+
+<a href="/images/blog/sc_geartypes.png" class="plain"><img src="/images/blog/sc_geartypes_small.jpg" alt="Signal Chains gear types" /></a>
+
+The building blocks of Signal Chains. The tools that real engineers use to accomplish the sound they have in their head. Gear can be added by anyone, but and emphasis has been put on search in order to avoid duplicate entries. Gear can be added straight from the gear type page or on the fly during chain creation. When "browsing mics":http://signalchains.com/mics, for example, I can select _Condenser_ from "Type". Doing this shows me only condenser mics in the database.
+
+<a href="/images/blog/sc_gearsearch.png" class="plain"><img src="/images/blog/sc_gearsearch_small.jpg" alt="Signal Chains gear search" /></a>
+
+If I want to further narrow my search, I can enter _AKG_ in "Make". At the moment, there is only one AKG Condenser in the database (let's change that!), so the C414 is listed. Alternatively, if I don't find the AKG Condenser I'm looking for, I can add it by clicking the _New Mic_ button. Doing this will over time build a large database of audio gear, with which we can take over the world.
+
+Viewing a "gear page":http://signalchains.com/mics/7 gives you a list of chains that gear is involved in, allowing you to hear it in different scenarios.
+
+h5. Chains
+
+The heart of Signal Chains is, of course, the chain. A chain is involves the following:
+
+* An input source -- Microphone or Line Input
+* A preamp
+* Optional extra gear -- Dynamics Processors, Equalizers, Effects Processors, and Converters
+* A 30 second audio sample of the recorded audio
+* Optional (but encouraged) notes about all gear used in the process.
+
+<a href="/images/blog/sc_rack.png" class="plain"><img src="/images/blog/sc_rack_small.jpg" alt="Signal Chains gear rack" /></a>
+
+The gear is displayed in a virtual rack where it can be reordered with drag-and-drop ease. Notes are displayed in the rack, and the individual gear's pages can be accessed easily. Gear is added one item at a time to encourage thorough explanation of each piece. Chains can be tagged with terms for search purposes. At the moment, I'm using them to label "what instrument":http://signalchains.com/tags/guitar is being recorded.
+
+!/images/blog/sc_chainoverview.png!
+
+Users can _Like_ and _Comment_ on chains, hopefully fostering a community environment and further discussion about the process involved. _Likes_ are virtual pats on the back, while _Comments_ are a way to make it known to the public that you are far superior to the user who created the subject content. You know, just like anywhere else on the internet.
+
+h5. Audio
+
+Arguably the most important piece of a chain is the audio. Nobody cares that you used all this expensive (or inexpensive) gear unless they can hear what it sounds like. This is why a chain _requires_ an audio sample. Samples can be up to 30 seconds and need to be in some high-quality format (AIFF or WAV). Once you upload the sample, Signal Chains converts it down to MP3 and OGG formats and provides a nice little inline audio player for quick listening. The high quality audio is provided for more detailed analysis if someone chooses to download it.
+
+!/images/blog/sc_audio.png!
+
+h5. Users
+
+In order to take full advantage of Signal Chains, one is required to become a user. Users, as if by some magical super power acquisition, gain the ability to create chains and gear, comment on and like chains and gear, and follow other users. That's right, we're doing the whole Twitter relationship thing. A user has their own dashboard populated with activity from people they follow. It's a quick and easy way to make sure your friends aren't doing anything better than you.
+
+h4. The Nerdery
+
+Signal Chains is a Ruby on Rails app developed by "Relatively Early Development":http://relativelyearly.com for ourselves, and is a testimony to what we can accomplish. We're excited to see how it is received by the public.
+
+For now, you can follow "@signalchains":http://twitter.com/signalchains on Twitter for updates. If you've got some feedback for us, go crazy on our "support site":http://support.signalchains.com/dashboard. If you're interested in advertising on the site, contact us at info(at)relativelyearly.com.
