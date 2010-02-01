@@ -4,7 +4,7 @@ title: RedLists
 permalink: portfolio/redlists.html
 image: images/portfolio/redlists/slider.jpg
 location: http://redlists.com
-excerpt: "RedLists is Relatively Early Development's first product, providing a way to manage multiple mailing lists with ease."
+excerpt: "RedLists was Relatively Early Development's first product, providing a way to manage multiple mailing lists with ease. It was put to sleep in late 2009, but still lives on in memories and experience."
 tags: 
   - Design
   - Development
@@ -81,7 +81,7 @@ tags:
       
       
       <div class="col right">
-"RedLists":http://redlists.com is Relatively Early Development's first product, providing a way to manage multiple mailing lists with ease. It lets users manage their own subscriptions, leaving you free to focus on your outgoing content.
+RedLists was Relatively Early Development's first product, providing a way to manage multiple mailing lists with ease. It was put to sleep in late 2009, but still lives on in memories and experience. RedLists was built with simplicity and ease of use in mind, letting users manage their own subscriptions and create lists on the fly.
 
 RedLists was designed and developed completely by Relatively Early.
 </div>
