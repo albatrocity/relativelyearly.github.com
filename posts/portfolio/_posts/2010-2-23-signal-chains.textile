@@ -1,0 +1,73 @@
+---
+layout: portfolio_item
+title: Signal Chains
+permalink: portfolio/signal-chains.html
+image: images/portfolio/signal-chains/slider.png
+location: http://signalchains.com
+excerpt: "Signal Chains is provides a way for audio engineers to share their signal flows through audio samples documenting each piece and process involved."
+tags: 
+  - Design
+  - Development
+---
+
+        <div class="col left">
+            <h1><a href="{{ page.location }}">{{ page.title }}</a></h1>
+<div class="scroller">
+  <div class="scrollable">
+    <div class="items">
+      <div>
+        <a rel="facebox" href="/images/portfolio/signal-chains/full_size/slider.png">
+          !/images/portfolio/signal-chains/slider.png!
+        </a>
+        <div class="desc">
+          <h3>Home Page</h3>
+        </div>
+      </div>
+      
+      <div>
+        <a rel="facebox" href="/images/portfolio/signal-chains/full_size/gear.png">
+          !/images/portfolio/signal-chains/gear.png!
+        </a>
+        <div class="desc">
+          <h3>Browse Gear Page</h3>
+        </div>
+      </div>
+
+      <div>
+        <a rel="facebox" href="/images/portfolio/signal-chains/full_size/chain.png">
+          !/images/portfolio/signal-chains/chain.png!
+        </a>
+        <div class="desc">
+          <h3>Viewing a Chain</h3>
+        </div>
+      </div>
+
+      <div>
+        <a rel="facebox" href="/images/portfolio/signal-chains/full_size/mics.png">
+          !/images/portfolio/signal-chains/mics.png!
+        </a>
+        <div class="desc">
+          <h3>Search Mics</h3>
+        </div>
+      </div>    
+      
+    </div>
+  </div>
+  <div class="navi"></div>
+</div>
+
+
+          <a class="button" href="/portfolio.html"/>&larr; portfolio</a>
+          <br class="clear"/>
+        </div>  
+
+      
+      
+      <div class="col right">
+Relatively Early conceptualized and developed Signal Chains as an internal project. It's a great example of what we're capable of.
+
+*The Problem:* Audio gear is expensive. Few brick and mortar stores carry expensive audio gear and will let you get your hands on it before purchasing. Conversely, when people post audio samples online, you’re not always sure what is involved. Is it really that mic that sounds that way? Or is the preamp they’re using coloring the sound?
+
+*The Solution:* Signal Chains is essentially a way for audio engineers to share their signal flows through audio samples, documenting each piece and process involved. It does this by providing a standardized method of doing so.
+
+      </div>
